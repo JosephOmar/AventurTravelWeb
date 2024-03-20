@@ -1,0 +1,27 @@
+---
+import SliderNav from "../../../components/Main/SliderNav.astro";
+import Layout from "../../../layouts/Layout.astro";
+import TitleTours from "../../../components/Tours/TitleTours.astro"
+import MainTours from "../../../components/Tours/MainTours.astro"
+import {FULLDAYS_TOURS} from "../../../components/Tours/datainfo.js"
+
+const IMG_SLIDER = {
+    img1 : '/img/Lima/Full-Days/Full-DaysSlider1.webp',
+    img2 : '/img/Lima/Full-Days/Full-DaysSlider2.webp',
+    img3 : '/img/Lima/Full-Days/Full-DaysSlider3.webp',
+    img4 : '/img/Lima/Full-Days/Full-DaysSlider4.webp',
+}
+---
+<Layout title="Full Days" description="Full Days">
+    <SliderNav image1={IMG_SLIDER.img1} image2={IMG_SLIDER.img2} image3={IMG_SLIDER.img3} image4={IMG_SLIDER.img4} h="md:h-[50vh]"/>
+    <TitleTours name="Full Days"/>
+    <section class="flex min-h-[70vh] justify-center items-center px-4">
+      <div class="grid grid-cols-1 gap-5 md:grid-cols-2 mb-8 justify-center items-center max-w-[920px]">
+            {
+              FULLDAYS_TOURS.map ((tour) =>(
+                  <MainTours {...tour} />
+              ))
+            }  
+      </div>
+    </section>
+</Layout>

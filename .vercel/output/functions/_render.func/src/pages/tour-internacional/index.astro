@@ -1,0 +1,27 @@
+---
+import SliderNav from "../../components/Main/SliderNav.astro";
+import Layout from "../../layouts/Layout.astro";
+import TitleTours from "../../components/Tours/TitleTours.astro"
+import MainTours from "../../components/Tours/MainTours.astro"
+import {INTERNATIONAL_TOURS} from "../../components/Tours/datainfo.js"
+
+const IMG_SLIDER = {
+    img1 : '/img/International/InternationalSlider1.webp',
+    img2 : '/img/International/InternationalSlider2.webp',
+    img3 : '/img/International/InternationalSlider3.webp',
+    img4 : '/img/International/InternationalSlider4.webp',
+}
+---
+<Layout title="Tours Internacionales" description="Tours Internacionales">
+    <SliderNav image1={IMG_SLIDER.img1} image2={IMG_SLIDER.img2} image3={IMG_SLIDER.img3} image4={IMG_SLIDER.img4} h="md:h-[50vh]"/>
+    <TitleTours name="Tours Internacionales"/>
+    <section class="flex min-h-[70vh] justify-center items-center px-4">
+      <div class="grid grid-cols-1 gap-5 md:grid-cols-2 mb-8 justify-center items-center max-w-[920px]">
+            {
+              INTERNATIONAL_TOURS.map ((tour) =>(
+                  <MainTours {...tour} />
+              ))
+            }  
+      </div>
+    </section>
+</Layout>

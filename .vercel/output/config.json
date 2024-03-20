@@ -1,0 +1,131 @@
+{
+	"version": 3,
+	"routes": [
+		{
+			"src": "^/_astro/(.*)$",
+			"headers": {
+				"cache-control": "public, max-age=31536000, immutable"
+			},
+			"continue": true
+		},
+		{
+			"handle": "filesystem"
+		},
+		{
+			"src": "^\\/_image$",
+			"dest": "_render"
+		},
+		{
+			"src": "^\\/nosotros\\/?$",
+			"dest": "_render"
+		},
+		{
+			"src": "^\\/tour-escolar\\/viaje-de-estudios\\/([^/]+?)\\/?$",
+			"dest": "_render"
+		},
+		{
+			"src": "^\\/tour-escolar\\/viaje-de-estudios\\/?$",
+			"dest": "_render"
+		},
+		{
+			"src": "^\\/tour-escolar\\/viaje-de-promocion\\/([^/]+?)\\/?$",
+			"dest": "_render"
+		},
+		{
+			"src": "^\\/tour-escolar\\/viaje-de-promocion\\/?$",
+			"dest": "_render"
+		},
+		{
+			"src": "^\\/tour-escolar\\/visita-de-estudios\\/([^/]+?)\\/?$",
+			"dest": "_render"
+		},
+		{
+			"src": "^\\/tour-escolar\\/visita-de-estudios\\/?$",
+			"dest": "_render"
+		},
+		{
+			"src": "^\\/tour-escolar\\/?$",
+			"dest": "_render"
+		},
+		{
+			"src": "^\\/tour-internacional\\/caribe\\/([^/]+?)\\/?$",
+			"dest": "_render"
+		},
+		{
+			"src": "^\\/tour-internacional\\/caribe\\/?$",
+			"dest": "_render"
+		},
+		{
+			"src": "^\\/tour-internacional\\/norteamerica\\/([^/]+?)\\/?$",
+			"dest": "_render"
+		},
+		{
+			"src": "^\\/tour-internacional\\/norteamerica\\/?$",
+			"dest": "_render"
+		},
+		{
+			"src": "^\\/tour-internacional\\/sudamerica\\/([^/]+?)\\/?$",
+			"dest": "_render"
+		},
+		{
+			"src": "^\\/tour-internacional\\/sudamerica\\/?$",
+			"dest": "_render"
+		},
+		{
+			"src": "^\\/tour-internacional\\/([^/]+?)\\/?$",
+			"dest": "_render"
+		},
+		{
+			"src": "^\\/tour-internacional\\/?$",
+			"dest": "_render"
+		},
+		{
+			"src": "^\\/tour-lima\\/full-day\\/([^/]+?)\\/?$",
+			"dest": "_render"
+		},
+		{
+			"src": "^\\/tour-lima\\/full-day\\/?$",
+			"dest": "_render"
+		},
+		{
+			"src": "^\\/tour-lima\\/tematico\\/([^/]+?)\\/?$",
+			"dest": "_render"
+		},
+		{
+			"src": "^\\/tour-lima\\/tematico\\/?$",
+			"dest": "_render"
+		},
+		{
+			"src": "^\\/tour-lima\\/weekend\\/([^/]+?)\\/?$",
+			"dest": "_render"
+		},
+		{
+			"src": "^\\/tour-lima\\/weekend\\/?$",
+			"dest": "_render"
+		},
+		{
+			"src": "^\\/tour-lima\\/([^/]+?)\\/?$",
+			"dest": "_render"
+		},
+		{
+			"src": "^\\/tour-lima\\/?$",
+			"dest": "_render"
+		},
+		{
+			"src": "^\\/tour-nacional\\/([^/]+?)\\/?$",
+			"dest": "_render"
+		},
+		{
+			"src": "^\\/tour-nacional\\/?$",
+			"dest": "_render"
+		},
+		{
+			"src": "^\\/tours-especiales\\/?$",
+			"dest": "_render"
+		},
+		{
+			"src": "^\\/$",
+			"dest": "_render"
+		}
+	]
+}
