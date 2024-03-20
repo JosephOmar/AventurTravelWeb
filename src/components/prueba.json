@@ -1,0 +1,2517 @@
+[
+  {
+    "id": "7f684417-07dd-4700-bf6e-bc3fee9b3d5c",
+    "tourOption": "Tours-Nacional",
+    "slug": "lambayeque",
+    "title": "Lambayeque",
+    "name": "Lambayeque",
+    "imgSlider": ["/img/ToursNational/imagen1.webp", "/img/ToursNational/imagen2.webp", "/img/ToursNational/imagen3.webp", "/img/ToursNational/imagen4.webp"],
+    "description": "Descubre la historia y arqueología de Lambayeque, tierra de culturas preincaicas.",
+    "timeTravel": "4 días",
+    "itinerary": [
+      "Día 1: Visita al Museo Tumbas Reales de Sipán.",
+      "Día 2: Recorrido por las Huacas del Sol y de la Luna.",
+      "Día 3: Exploración de la ciudad de Chiclayo.",
+      "Día 4: Tour por las playas de Pimentel."
+    ],
+    "considerations": [
+      "Llevar agua y protector solar.",
+      "Se recomienda probar la gastronomía local, especialmente el ceviche y el arroz con pato."
+    ],
+    "additional": [
+      "Transporte desde el aeropuerto.",
+      "Entradas a los sitios arqueológicos incluidas."
+    ],
+    "price": 280,
+    "imgCarousel": ["/img/ToursNational/imagen5.webp",
+    "/img/ToursNational/imagen6.webp",
+    "/img/ToursNational/imagen7.webp",
+    "/img/ToursNational/imagen8.webp"],
+    "comments": [
+      {
+        "img": "/img/ToursNational/imagen9.webp",
+        "name": "Laura Pérez",
+        "description": "Chiclayo tiene una oferta cultural y gastronómica fascinante. ¡No te lo pierdas!"
+      },
+      {
+        "img": "/img/ToursNational/imagen10.webp",
+        "name": "Carlos López",
+        "description": "Las Huacas del Sol y de la Luna son un testimonio del gran legado de la cultura Moche."
+      },
+      {
+        "img": "/img/ToursNational/imagen11.webp",
+        "name": "Sofía García",
+        "description": "El Museo Tumbas Reales de Sipán es impresionante, una experiencia única en Lambayeque."
+      }
+    ]
+  },
+  {
+    "id": "4a0b93c2-d2da-49d8-804e-c6d4fa57d30e",
+    "tourOption": "Tours-Nacional",
+    "slug": "iquitos",
+    "title": "Iquitos",
+    "name": "Iquitos",
+    "imgSlider": ["/img/ToursNational/imagen1.webp", "/img/ToursNational/imagen2.webp", "/img/ToursNational/imagen3.webp", "/img/ToursNational/imagen4.webp"],
+    "description": "Explora la selva amazónica desde la ciudad de Iquitos, la puerta de entrada a la Amazonía peruana.",
+    "timeTravel": "6 días",
+    "itinerary": [
+      "Día 1: Visita al mercado flotante de Belén.",
+      "Día 2: Excursión a la Reserva Nacional Pacaya-Samiria.",
+      "Día 3: Navegación por el río Amazonas.",
+      "Día 4: Encuentro con comunidades indígenas.",
+      "Día 5: Canopy en la selva.",
+      "Día 6: Regreso a la ciudad de Iquitos."
+    ],
+    "considerations": [
+      "Se recomienda vacunarse contra la fiebre amarilla antes del viaje.",
+      "Uso de repelente de mosquitos es esencial."
+    ],
+    "additional": [
+      "Alojamiento en lodges ecológicos en plena selva.",
+      "Guiado por expertos locales."
+    ],
+    "price": 350,
+    "imgCarousel": ["/img/ToursNational/imagen5.webp",
+    "/img/ToursNational/imagen6.webp",
+    "/img/ToursNational/imagen7.webp",
+    "/img/ToursNational/imagen8.webp"],
+    "comments": [
+      {
+        "img": "/img/ToursNational/imagen9.webp",
+        "name": "Pedro Fernández",
+        "description": "La hospitalidad de las comunidades indígenas nos hizo sentir como en casa. ¡Gracias Iquitos!"
+      },
+      {
+        "img": "/img/ToursNational/imagen10.webp",
+        "name": "Luisa Gutiérrez",
+        "description": "Los sonidos y colores de la selva son fascinantes. ¡Recomendado para los amantes de la naturaleza!"
+      },
+      {
+        "img": "/img/ToursNational/imagen11.webp",
+        "name": "Carlos Pérez",
+        "description": "¡Una aventura inolvidable! Conocer la selva amazónica desde Iquitos es una experiencia única."
+      }
+    ]
+  },
+  {
+    "id": "52bf6bba-9741-41af-b85b-4cdf048ba599",
+    "tourOption": "Tours-Nacional",
+    "slug": "cusco",
+    "title": "Cusco",
+    "name": "Cusco",
+    "imgSlider": ["/img/ToursNational/imagen1.webp", "/img/ToursNational/imagen2.webp", "/img/ToursNational/imagen3.webp", "/img/ToursNational/imagen4.webp"],
+    "description": "Explora la antigua capital del Imperio Inca y maravíllate con sus impresionantes monumentos.",
+    "timeTravel": "4 días",
+    "itinerary": [
+      "Día 1: Visita a la Plaza de Armas y la Catedral de Cusco.",
+      "Día 2: Excursión al Valle Sagrado de los Incas.",
+      "Día 3: Tour por las ruinas de Machu Picchu.",
+      "Día 4: Exploración de la ciudadela de Sacsayhuamán."
+    ],
+    "considerations": [
+      "Se recomienda tomar mate de coca para prevenir el mal de altura.",
+      "Llevar ropa abrigada para las mañanas frescas y protector solar para el día."
+    ],
+    "additional": [
+      "Ingreso a los sitios arqueológicos incluido en el precio del tour.",
+      "Guiado por arqueólogos especializados."
+    ],
+    "price": 400,
+    "imgCarousel": ["/img/ToursNational/imagen5.webp",
+    "/img/ToursNational/imagen6.webp",
+    "/img/ToursNational/imagen7.webp",
+    "/img/ToursNational/imagen8.webp"],
+    "comments": [
+      {
+        "img": "/img/ToursNational/imagen9.webp",
+        "name": "Ana Rodríguez",
+        "description": "Machu Picchu es simplemente espectacular. ¡Una maravilla del mundo!"
+      },
+      {
+        "img": "/img/ToursNational/imagen10.webp",
+        "name": "July Valentino",
+        "description": "Machu Picchu es simplemente espectacular. ¡Una maravilla del mundo!"
+      },
+      {
+        "img": "/img/ToursNational/imagen11.webp",
+        "name": "Ana Rodríguez",
+        "description": "Machu Picchu es simplemente espectacular. ¡Una maravilla del mundo!"
+      }
+    ]
+  },
+  {
+    "id": "aee9dfc5-fd03-4b7a-b2e9-b3822136ccb5",
+    "tourOption": "Tours-Nacional",
+    "slug": "huancavelica",
+    "title": "Huancavelica",
+    "name": "Huancavelica",
+    "imgSlider": ["/img/ToursNational/imagen1.webp", "/img/ToursNational/imagen2.webp", "/img/ToursNational/imagen3.webp", "/img/ToursNational/imagen4.webp"],
+    "description": "Explora la belleza natural de Huancavelica y su fascinante historia.",
+    "timeTravel": "3 días",
+    "itinerary": [
+      "Día 1: Visita a las minas de Huancavelica.",
+      "Día 2: Excursión a las lagunas de Choclococha.",
+      "Día 3: Recorrido por la ciudad de Huancavelica."
+    ],
+    "considerations": [
+      "Llevar abrigo, las noches pueden ser frías.",
+      "No olvides tu cámara para capturar los paisajes impresionantes de Choclococha."
+    ],
+    "additional": [
+      "Guía turístico local incluido.",
+      "Transporte terrestre desde Lima."
+    ],
+    "price": 200,
+    "imgCarousel": ["/img/ToursNational/imagen5.webp",
+    "/img/ToursNational/imagen6.webp",
+    "/img/ToursNational/imagen7.webp",
+    "/img/ToursNational/imagen8.webp"],
+    "comments": [
+      {
+        "img": "/img/ToursNational/imagen9.webp",
+        "name": "Carlos Gómez",
+        "description": "Huancavelica es un destino tranquilo y hermoso, ideal para desconectar de la rutina."
+      },
+      {
+        "img": "/img/ToursNational/imagen10.webp",
+        "name": "Laura Pérez",
+        "description": "La historia de las minas de Huancavelica es fascinante. ¡Una experiencia educativa!"
+      },
+      {
+        "img": "/img/ToursNational/imagen11.webp",
+        "name": "David Martínez",
+        "description": "Las lagunas de Choclococha son un tesoro escondido, vale la pena visitarlas."
+      }
+    ]
+  },
+  {
+    "id": "20df4c0b-8057-454d-9d8b-052c6921f92b",
+    "tourOption": "Tours-Nacional",
+    "slug": "ancash",
+    "title": "Ancash",
+    "name": "Ancash",
+    "imgSlider": ["/img/ToursNational/imagen1.webp", "/img/ToursNational/imagen2.webp", "/img/ToursNational/imagen3.webp", "/img/ToursNational/imagen4.webp"],
+    "description": "Descubre la belleza natural de Ancash y sus impresionantes paisajes.",
+    "timeTravel": "5 días",
+    "itinerary": [
+      "Día 1: Trekking en la Cordillera Blanca.",
+      "Día 2: Visita a las ruinas de Chavín de Huántar.",
+      "Día 3: Paseo por la ciudad de Huaraz.",
+      "Día 4: Exploración de las playas de Huarmey.",
+      "Día 5: Observación de aves en la Reserva Nacional de Lachay."
+    ],
+    "considerations": [
+      "Se recomienda llevar ropa abrigada y calzado adecuado para el trekking.",
+      "Protector solar y repelente de insectos son indispensables."
+    ],
+    "additional": [
+      "Transporte incluido desde Lima.",
+      "Alojamiento en hoteles con desayuno incluido."
+    ],
+    "price": 250,
+    "imgCarousel": ["/img/ToursNational/imagen5.webp",
+    "/img/ToursNational/imagen6.webp",
+    "/img/ToursNational/imagen7.webp",
+    "/img/ToursNational/imagen8.webp"],
+    "comments": [
+      {
+        "img": "/img/ToursNational/imagen9.webp",
+        "name": "Ana Martínez",
+        "description": "Huaraz es una ciudad encantadora con una rica historia y cultura."
+      },
+      {
+        "img": "/img/ToursNational/imagen10.webp",
+        "name": "Juan Pérez",
+        "description": "Me encantó el trekking en la Cordillera Blanca. ¡Volvería sin dudarlo!"
+      },
+      {
+        "img": "/img/ToursNational/imagen11.webp",
+        "name": "María López",
+        "description": "¡Una experiencia increíble! Los paisajes de Ancash son simplemente asombrosos."
+      }
+    ]
+  },
+  {
+    "id": "2c41bcd4-ac51-4459-b92e-42fe0f67df02",
+    "tourOption": "Tours-Nacional",
+    "slug": "arequipa",
+    "title": "Arequipa",
+    "name": "Arequipa",
+    "imgSlider": ["/img/ToursNational/imagen1.webp", "/img/ToursNational/imagen2.webp", "/img/ToursNational/imagen3.webp", "/img/ToursNational/imagen4.webp"],
+    "description": "Descubre la Ciudad Blanca y su fascinante arquitectura colonial.",
+    "timeTravel": "3 días",
+    "itinerary": [
+      "Día 1: Tour por el centro histórico de Arequipa.",
+      "Día 2: Excursión al Cañón del Colca.",
+      "Día 3: Visita al Monasterio de Santa Catalina."
+    ],
+    "considerations": [
+      "Se recomienda llevar ropa ligera y un sombrero para protegerse del sol.",
+      "Hidratarse constantemente debido al clima seco de la región."
+    ],
+    "additional": [
+      "Transporte en cómodos vehículos turísticos.",
+      "Degustación de la gastronomía arequipeña incluida en el tour."
+    ],
+    "price": 300,
+    "imgCarousel": ["/img/ToursNational/imagen5.webp",
+    "/img/ToursNational/imagen6.webp",
+    "/img/ToursNational/imagen7.webp",
+    "/img/ToursNational/imagen8.webp"],
+    "comments": [
+      {
+        "img": "/img/ToursNational/imagen9.webp",
+        "name": "José Torres",
+        "description": "El Monasterio de Santa Catalina es un lugar lleno de historia y tranquilidad. ¡Muy recomendado!"
+      },
+      {
+        "img": "/img/ToursNational/imagen10.webp",
+        "name": "Luz Silva",
+        "description": "Arequipa tiene una arquitectura colonial encantadora. ¡Me enamoré de la Ciudad Blanca!"
+      },
+      {
+        "img": "/img/ToursNational/imagen11.webp",
+        "name": "Pedro González",
+        "description": "El Cañón del Colca es impresionante. ¡Una experiencia única en Arequipa!"
+      }
+    ]
+  },
+  {
+    "id": "b8007e27-beb9-4f0d-8432-0104a65611b2",
+    "tourOption": "Tours-Nacional",
+    "slug": "amazonas",
+    "title": "Amazonas",
+    "name": "Amazonas",
+    "imgSlider": ["/img/ToursNational/imagen1.webp", "/img/ToursNational/imagen2.webp", "/img/ToursNational/imagen3.webp", "/img/ToursNational/imagen4.webp"],
+    "description": "Explora la selva y la cultura ancestral de los pueblos amazónicos en Amazonas.",
+    "timeTravel": "5 días",
+    "itinerary": [
+      "Día 1: Navegación por el río Marañón.",
+      "Día 2: Visita a la comunidad indígena de San Martín de Tipishca.",
+      "Día 3: Trekking en la Reserva Nacional Pacaya Samiria.",
+      "Día 4: Tour por la ciudad de Chachapoyas.",
+      "Día 5: Retorno a Lima."
+    ],
+    "considerations": [
+      "Llevar repelente de mosquitos y ropa ligera.",
+      "Vacunarse contra la fiebre amarilla antes del viaje es obligatorio."
+    ],
+    "additional": [
+      "Alojamiento en lodges ecológicos.",
+      "Comida típica de la selva incluida en el tour."
+    ],
+    "price": 400,
+    "imgCarousel": ["/img/ToursNational/imagen5.webp",
+    "/img/ToursNational/imagen6.webp",
+    "/img/ToursNational/imagen7.webp",
+    "/img/ToursNational/imagen8.webp"],
+    "comments": [
+      {
+        "img": "/img/ToursNational/imagen9.webp",
+        "name": "Carlos Rodríguez",
+        "description": "Chachapoyas es una ciudad encantadora con una rica historia y cultura."
+      },
+      {
+        "img": "/img/ToursNational/imagen10.webp",
+        "name": "Ana Torres",
+        "description": "La comunidad indígena de San Martín de Tipishca nos recibió con gran hospitalidad."
+      },
+      {
+        "img": "/img/ToursNational/imagen11.webp",
+        "name": "Luis González",
+        "description": "La Reserva Nacional Pacaya Samiria es un paraíso natural, lleno de biodiversidad."
+      }
+    ]
+  },
+  {
+    "id": "e3b34ba8-1711-47db-bf38-56097ce23116",
+    "tourOption": "Tours-Nacional",
+    "slug": "piura",
+    "title": "Piura",
+    "name": "Piura",
+    "imgSlider": ["/img/ToursNational/imagen1.webp", "/img/ToursNational/imagen2.webp", "/img/ToursNational/imagen3.webp", "/img/ToursNational/imagen4.webp"],
+    "description": "Descubre las playas paradisíacas y la rica gastronomía de Piura.",
+    "timeTravel": "4 días",
+    "itinerary": [
+      "Día 1: Día de playa en Máncora.",
+      "Día 2: Tour gastronómico por Piura.",
+      "Día 3: Visita a las ruinas de Túcume.",
+      "Día 4: Tour por la ciudad de Piura."
+    ],
+    "considerations": [
+      "Protector solar y traje de baño son imprescindibles.",
+      "Prueba el ceviche de conchas negras, un plato típico de la región."
+    ],
+    "additional": [
+      "Alojamiento en hoteles frente al mar.",
+      "Degustación de la gastronomía local incluida."
+    ],
+    "price": 300,
+    "imgCarousel": ["/img/ToursNational/imagen5.webp",
+    "/img/ToursNational/imagen6.webp",
+    "/img/ToursNational/imagen7.webp",
+    "/img/ToursNational/imagen8.webp"],
+    "comments": [
+      {
+        "img": "/img/ToursNational/imagen9.webp",
+        "name": "Laura Rodríguez",
+        "description": "Las ruinas de Túcume son impresionantes, un viaje fascinante por la historia."
+      },
+      {
+        "img": "/img/ToursNational/imagen10.webp",
+        "name": "Pedro Sánchez",
+        "description": "La comida en Piura es deliciosa, especialmente el ceviche de conchas negras."
+      },
+      {
+        "img": "/img/ToursNational/imagen11.webp",
+        "name": "María González",
+        "description": "¡Máncora tiene las mejores playas que he visto! Definitivamente volveré."
+      }
+    ]
+  },
+  {
+    "id": "d4fde5b4-1733-4c54-b473-808c39b58684",
+    "tourOption": "Tours-Nacional",
+    "slug": "cajamarca",
+    "title": "Cajamarca",
+    "name": "Cajamarca",
+    "imgSlider": ["/img/ToursNational/imagen1.webp", "/img/ToursNational/imagen2.webp", "/img/ToursNational/imagen3.webp", "/img/ToursNational/imagen4.webp"],
+    "description": "Descubre la historia colonial y los paisajes impresionantes de Cajamarca.",
+    "timeTravel": "4 días",
+    "itinerary": [
+      "Día 1: Tour por la ciudad de Cajamarca.",
+      "Día 2: Visita a las Ventanillas de Otuzco y al complejo arqueológico de Cumbemayo.",
+      "Día 3: Recorrido por las aguas termales de Baños del Inca.",
+      "Día 4: Degustación de quesos y lácteos en la campiña."
+    ],
+    "considerations": [
+      "Llevar ropa abrigada, las noches pueden ser frías.",
+      "Prueba el manjar blanco y el queso helado, dulces típicos de Cajamarca."
+    ],
+    "additional": [
+      "Transporte incluido desde Lima.",
+      "Alojamiento en hoteles céntricos."
+    ],
+    "price": 320,
+    "imgCarousel": ["/img/ToursNational/imagen5.webp",
+    "/img/ToursNational/imagen6.webp",
+    "/img/ToursNational/imagen7.webp",
+    "/img/ToursNational/imagen8.webp"],
+    "comments": [
+      {
+        "img": "/img/ToursNational/imagen9.webp",
+        "name": "Sofía García",
+        "description": "Los quesos y lácteos de la campiña de Cajamarca son deliciosos. ¡Me llevé varios para casa!"
+      },
+      {
+        "img": "/img/ToursNational/imagen10.webp",
+        "name": "Juan Pérez",
+        "description": "Baños del Inca es perfecto para relajarse después de un día de turismo en Cajamarca."
+      },
+      {
+        "img": "/img/ToursNational/imagen11.webp",
+        "name": "Laura Martínez",
+        "description": "Cumbemayo es un lugar mágico, con paisajes que te dejan sin aliento."
+      }
+    ]
+  },
+  {
+    "id": "1fde4080-4ced-460a-a966-6efb1897ac11",
+    "tourOption": "Tours-Nacional",
+    "slug": "puno",
+    "title": "Puno",
+    "name": "Puno",
+    "imgSlider": ["/img/ToursNational/imagen1.webp", "/img/ToursNational/imagen2.webp", "/img/ToursNational/imagen3.webp", "/img/ToursNational/imagen4.webp"],
+    "description": "Explora el lago más alto del mundo y descubre la cultura y tradiciones del pueblo aymara.",
+    "timeTravel": "4 días",
+    "itinerary": [
+      "Día 1: Visita a las islas flotantes de los Uros.",
+      "Día 2: Tour por la isla de Taquile.",
+      "Día 3: Excursión a la península de Capachica.",
+      "Día 4: Observación de aves en la Reserva Nacional del Titicaca."
+    ],
+    "considerations": [
+      "Se recomienda llevar ropa abrigada, ya que las noches pueden ser frías.",
+      "Uso de protector solar debido a la alta radiación solar en la región."
+    ],
+    "additional": [
+      "Traslados en lancha incluidos.",
+      "Alojamiento en casas de familia para una experiencia auténtica."
+    ],
+    "price": 320,
+    "imgCarousel": ["/img/ToursNational/imagen5.webp",
+    "/img/ToursNational/imagen6.webp",
+    "/img/ToursNational/imagen7.webp",
+    "/img/ToursNational/imagen8.webp"],
+    "comments": [
+      {
+        "img": "/img/ToursNational/imagen9.webp",
+        "name": "Daniel González",
+        "description": "La isla de Taquile es un lugar lleno de historia y tradiciones. ¡No te lo pierdas!"
+      },
+      {
+        "img": "/img/ToursNational/imagen10.webp",
+        "name": "Daniel González",
+        "description": "La isla de Taquile es un lugar lleno de historia y tradiciones. ¡No te lo pierdas!"
+      },
+      {
+        "img": "/img/ToursNational/imagen11.webp",
+        "name": "Marcela Ramírez",
+        "description": "Las islas flotantes de los Uros son impresionantes. ¡Una forma única de vivir en el lago Titicaca!"
+      }
+    ]
+  },
+  {
+    "id": "987d8be7-c04a-4b38-84c2-2e5fb77f6a28",
+    "tourOption": "Tours-Internacional",
+    "slug": "brasil",
+    "title": "Brasil",
+    "name": "Brasil",
+    "imgSlider": [
+      "/img/ToursInternational/imagen1.webp",
+      "/img/ToursInternational/imagen2.webp",
+      "/img/ToursInternational/imagen3.webp",
+      "/img/ToursInternational/imagen4.webp"
+    ],
+    "description": "Descubre la exuberante naturaleza y la vibrante cultura de Brasil.",
+    "timeTravel": "7 días",
+    "itinerary": [
+      "Día 1: Llegada a Río de Janeiro y visita al Cristo Redentor.",
+      "Día 2: Tour por la selva amazónica en Manaus.",
+      "Día 3: Excursión a las Cataratas del Iguazú.",
+      "Día 4: Exploración de la ciudad de Salvador de Bahía.",
+      "Día 5: Día de playa en Copacabana.",
+      "Día 6: Visita al Parque Nacional de Fernando de Noronha.",
+      "Día 7: Regreso a Lima."
+    ],
+    "considerations": [
+      "Llevar ropa ligera y protector solar.",
+      "No olvides tu traje de baño para disfrutar de las playas brasileñas."
+    ],
+    "additional": [
+      "Alojamiento en hoteles de categoría.",
+      "Excursiones y entradas a los sitios turísticos incluidas."
+    ],
+    "price": 1200,
+    "imgCarousel": [
+      "/img/ToursInternational/imagen5.webp",
+      "/img/ToursInternational/imagen6.webp",
+      "/img/ToursInternational/imagen7.webp",
+      "/img/ToursInternational/imagen8.webp"
+    ],
+    "comments": [
+      {
+        "img": "/img/ToursInternational/imagen9.webp",
+        "name": "María López",
+        "description": "Las Cataratas del Iguazú son un espectáculo impresionante de la naturaleza."
+      },
+      {
+        "img": "/img/ToursInternational/imagen10.webp",
+        "name": "Juan Pérez",
+        "description": "La selva amazónica es un lugar único en el mundo, lleno de biodiversidad."
+      },
+      {
+        "img": "/img/ToursInternational/imagen11.webp",
+        "name": "Ana Martínez",
+        "description": "Río de Janeiro tiene una energía vibrante que te atrapa. ¡Me encantó la ciudad!"
+      }
+    ]
+  },
+  {
+    "id": "b25fcd86-1685-4382-8b6d-4054168a5560",
+    "tourOption": "Tours-Internacional",
+    "slug": "argentina",
+    "title": "Argentina",
+    "name": "Argentina",
+    "imgSlider": [
+      "/img/ToursInternational/imagen1.webp",
+      "/img/ToursInternational/imagen2.webp",
+      "/img/ToursInternational/imagen3.webp",
+      "/img/ToursInternational/imagen4.webp"
+    ],
+    "description": "Descubre la belleza natural y la rica cultura de Argentina.",
+    "timeTravel": "8 días",
+    "itinerary": [
+      "Día 1: Llegada a Buenos Aires y recorrido por la ciudad.",
+      "Día 2: Visita a las Cataratas del Iguazú.",
+      "Día 3: Excursión a la región vinícola de Mendoza.",
+      "Día 4: Tour por la Patagonia Argentina.",
+      "Día 5: Exploración de la ciudad de Bariloche.",
+      "Día 6: Día de descanso y actividades al aire libre en Bariloche.",
+      "Día 7: Visita a la Península Valdés.",
+      "Día 8: Regreso a Lima."
+    ],
+    "considerations": [
+      "Llevar ropa abrigada para la Patagonia.",
+      "Prueba el delicioso vino argentino durante tu visita a Mendoza."
+    ],
+    "additional": [
+      "Alojamiento en hoteles de primera categoría.",
+      "Excursiones y entradas a los sitios turísticos incluidas."
+    ],
+    "price": 1500,
+    "imgCarousel": [
+      "/img/ToursInternational/imagen5.webp",
+      "/img/ToursInternational/imagen6.webp",
+      "/img/ToursInternational/imagen7.webp",
+      "/img/ToursInternational/imagen8.webp"
+    ],
+    "comments": [
+      {
+        "img": "/img/ToursInternational/imagen9.webp",
+        "name": "Luis García",
+        "description": "Las Cataratas del Iguazú son un espectáculo impresionante de la naturaleza."
+      },
+      {
+        "img": "/img/ToursInternational/imagen10.webp",
+        "name": "Ana Torres",
+        "description": "Mendoza es el paraíso de los amantes del vino. ¡Una experiencia inolvidable!"
+      },
+      {
+        "img": "/img/ToursInternational/imagen11.webp",
+        "name": "Carlos Rodríguez",
+        "description": "Bariloche es un destino de ensueño, con paisajes de postal en cada rincón."
+      }
+    ]
+  },
+  {
+    "id": "c2c86a22-0a17-4e7a-8de3-5563005a4b80",
+    "tourOption": "Tours-Internacional",
+    "slug": "colombia",
+    "title": "Colombia",
+    "name": "Colombia",
+    "imgSlider": [
+      "/img/ToursInternational/imagen1.webp",
+      "/img/ToursInternational/imagen2.webp",
+      "/img/ToursInternational/imagen3.webp",
+      "/img/ToursInternational/imagen4.webp"
+    ],
+    "description": "Descubre la diversidad cultural y natural de Colombia.",
+    "timeTravel": "6 días",
+    "itinerary": [
+      "Día 1: Llegada a Bogotá y recorrido por la ciudad.",
+      "Día 2: Visita a la Catedral de Sal de Zipaquirá.",
+      "Día 3: Exploración del Parque Nacional Natural Tayrona.",
+      "Día 4: Tour por la ciudad de Medellín.",
+      "Día 5: Excursión al Parque Nacional Natural Los Nevados.",
+      "Día 6: Regreso a Lima."
+    ],
+    "considerations": [
+      "Llevar ropa cómoda y repelente de insectos.",
+      "No olvides tu cámara para capturar los paisajes impresionantes de Colombia."
+    ],
+    "additional": [
+      "Alojamiento en hoteles de categoría.",
+      "Transporte y entradas a los sitios turísticos incluidas."
+    ],
+    "price": 1300,
+    "imgCarousel": [
+      "/img/ToursInternational/imagen5.webp",
+      "/img/ToursInternational/imagen6.webp",
+      "/img/ToursInternational/imagen7.webp",
+      "/img/ToursInternational/imagen8.webp"
+    ],
+    "comments": [
+      {
+        "img": "/img/ToursInternational/imagen9.webp",
+        "name": "Sofía Martínez",
+        "description": "La Catedral de Sal de Zipaquirá es una obra arquitectónica impresionante."
+      },
+      {
+        "img": "/img/ToursInternational/imagen10.webp",
+        "name": "Juan López",
+        "description": "Tayrona es un paraíso natural, con playas de ensueño y selva exuberante."
+      },
+      {
+        "img": "/img/ToursInternational/imagen11.webp",
+        "name": "Laura González",
+        "description": "Medellín es una ciudad vibrante y llena de historia. ¡Me encantó conocerla!"
+      }
+    ]
+  },
+  {
+    "id": "1c9e830e-ff6a-4c92-b2b2-85680d5d99e4",
+    "tourOption": "Tours-Internacional",
+    "slug": "chile",
+    "title": "Chile",
+    "name": "Chile",
+    "imgSlider": [
+      "/img/ToursInternational/imagen1.webp",
+      "/img/ToursInternational/imagen2.webp",
+      "/img/ToursInternational/imagen3.webp",
+      "/img/ToursInternational/imagen4.webp"
+    ],
+    "description": "Descubre la diversidad geográfica y cultural de Chile.",
+    "timeTravel": "7 días",
+    "itinerary": [
+      "Día 1: Llegada a Santiago y recorrido por la ciudad.",
+      "Día 2: Visita al Valle del Elqui y observación de estrellas.",
+      "Día 3: Excursión al Desierto de Atacama.",
+      "Día 4: Tour por la Isla de Chiloé.",
+      "Día 5: Exploración de la ciudad de Valparaíso.",
+      "Día 6: Visita a las viñas de Colchagua.",
+      "Día 7: Regreso a Lima."
+    ],
+    "considerations": [
+      "Llevar ropa adecuada para cada clima.",
+      "No te pierdas la oportunidad de probar el pisco chileno durante tu visita al Valle del Elqui."
+    ],
+    "additional": [
+      "Alojamiento en hoteles de primera categoría.",
+      "Transporte y entradas a los sitios turísticos incluidas."
+    ],
+    "price": 1400,
+    "imgCarousel": [
+      "/img/ToursInternational/imagen5.webp",
+      "/img/ToursInternational/imagen6.webp",
+      "/img/ToursInternational/imagen7.webp",
+      "/img/ToursInternational/imagen8.webp"
+    ],
+    "comments": [
+      {
+        "img": "/img/ToursInternational/imagen9.webp",
+        "name": "Carlos González",
+        "description": "El Desierto de Atacama es un paisaje surrealista, una experiencia única."
+      },
+      {
+        "img": "/img/ToursInternational/imagen10.webp",
+        "name": "Laura Pérez",
+        "description": "Valparaíso es una ciudad colorida y llena de arte. ¡Me fascinó su energía!"
+      },
+      {
+        "img": "/img/ToursInternational/imagen11.webp",
+        "name": "Ana Martínez",
+        "description": "La Isla de Chiloé es un tesoro escondido, con paisajes naturales impresionantes."
+      }
+    ]
+  },
+  {
+    "id": "e5fcafe2-2a6a-4ef9-a55f-564f681a5b1f",
+    "tourOption": "Tours-Internacional",
+    "slug": "cancun",
+    "title": "Cancún",
+    "name": "Cancún",
+    "imgSlider": [
+      "/img/ToursInternational/imagen1.webp",
+      "/img/ToursInternational/imagen2.webp",
+      "/img/ToursInternational/imagen3.webp",
+      "/img/ToursInternational/imagen4.webp"
+    ],
+    "description": "Descubre las playas de arena blanca y el agua cristalina de Cancún en el Caribe mexicano.",
+    "timeTravel": "5 días",
+    "itinerary": [
+      "Día 1: Llegada a Cancún y día de relax en la playa.",
+      "Día 2: Excursión a las ruinas mayas de Tulum.",
+      "Día 3: Tour de snorkel en la barrera de coral.",
+      "Día 4: Día de diversión en un parque temático acuático.",
+      "Día 5: Tiempo libre para compras y regreso a Lima."
+    ],
+    "considerations": [
+      "Llevar protector solar y traje de baño.",
+      "Disfruta de la gastronomía local, especialmente los mariscos frescos."
+    ],
+    "additional": [
+      "Alojamiento en un resort todo incluido.",
+      "Transporte y entradas a las atracciones turísticas incluidas."
+    ],
+    "price": 1500,
+    "imgCarousel": [
+      "/img/ToursInternational/imagen5.webp",
+      "/img/ToursInternational/imagen6.webp",
+      "/img/ToursInternational/imagen7.webp",
+      "/img/ToursInternational/imagen8.webp"
+    ],
+    "comments": [
+      {
+        "img": "/img/ToursInternational/imagen9.webp",
+        "name": "Elena Gómez",
+        "description": "Las playas de Cancún son simplemente impresionantes. ¡Un paraíso en la Tierra!"
+      },
+      {
+        "img": "/img/ToursInternational/imagen10.webp",
+        "name": "Pablo Fernández",
+        "description": "Tulum es un lugar mágico que te transporta al pasado. ¡Una experiencia única!"
+      },
+      {
+        "img": "/img/ToursInternational/imagen11.webp",
+        "name": "Lucía Rodríguez",
+        "description": "El snorkel en la barrera de coral es una aventura inolvidable. ¡Nadar con peces tropicales es increíble!"
+      }
+    ]
+  },
+  {
+    "id": "49a2e85e-dca7-4c79-995e-c8a3c4c5a3ab",
+    "tourOption": "Tours-Internacional",
+    "slug": "punta-cana",
+    "title": "Punta Cana",
+    "name": "Punta Cana",
+    "imgSlider": [
+      "/img/ToursInternational/imagen1.webp",
+      "/img/ToursInternational/imagen2.webp",
+      "/img/ToursInternational/imagen3.webp",
+      "/img/ToursInternational/imagen4.webp"
+    ],
+    "description": "Descubre las impresionantes playas de Punta Cana en la República Dominicana y disfruta del lujo caribeño.",
+    "timeTravel": "6 días",
+    "itinerary": [
+      "Día 1: Llegada a Punta Cana y día de relax en la playa.",
+      "Día 2: Excursión en catamarán a Isla Saona.",
+      "Día 3: Tour de aventura en dune buggies.",
+      "Día 4: Día de golf en un campo de clase mundial.",
+      "Día 5: Visita a la reserva ecológica de Los Haitises.",
+      "Día 6: Tiempo libre para compras y regreso a Lima."
+    ],
+    "considerations": [
+      "Llevar protector solar y ropa ligera.",
+      "Prueba los deliciosos cócteles caribeños mientras disfrutas del atardecer en la playa."
+    ],
+    "additional": [
+      "Alojamiento en un resort de lujo todo incluido.",
+      "Transporte y entradas a las atracciones turísticas incluidas."
+    ],
+    "price": 1800,
+    "imgCarousel": [
+      "/img/ToursInternational/imagen5.webp",
+      "/img/ToursInternational/imagen6.webp",
+      "/img/ToursInternational/imagen7.webp",
+      "/img/ToursInternational/imagen8.webp"
+    ],
+    "comments": [
+      {
+        "img": "/img/ToursInternational/imagen9.webp",
+        "name": "Sofía Martínez",
+        "description": "La Isla Saona es un paraíso tropical. ¡Las aguas turquesas y la arena blanca son impresionantes!"
+      },
+      {
+        "img": "/img/ToursInternational/imagen10.webp",
+        "name": "Juan López",
+        "description": "Los dune buggies son una forma emocionante de explorar el interior de Punta Cana. ¡Divertido y lleno de adrenalina!"
+      },
+      {
+        "img": "/img/ToursInternational/imagen11.webp",
+        "name": "Laura González",
+        "description": "Los Haitises es un tesoro natural, con manglares, cuevas y una increíble diversidad de flora y fauna."
+      }
+    ]
+  },
+  {
+    "id": "e9826b5c-97dc-4e96-9c02-c0a022c68e2d",
+    "tourOption": "Tours-Internacional",
+    "slug": "estados-unidos",
+    "title": "Estados Unidos",
+    "name": "Estados Unidos",
+    "imgSlider": [
+      "/img/ToursInternational/imagen1.webp",
+      "/img/ToursInternational/imagen2.webp",
+      "/img/ToursInternational/imagen3.webp",
+      "/img/ToursInternational/imagen4.webp"
+    ],
+    "description": "Explora la diversidad cultural y los paisajes impresionantes de Estados Unidos.",
+    "timeTravel": "10 días",
+    "itinerary": [
+      "Día 1: Llegada a Nueva York y recorrido por la ciudad.",
+      "Día 2: Visita a la Estatua de la Libertad y Ellis Island.",
+      "Día 3: Excursión a Niagara Falls desde Nueva York.",
+      "Día 4: Tour de la Casa Blanca y los monumentos de Washington D.C.",
+      "Día 5: Día libre para compras en Miami.",
+      "Día 6: Exploración de los parques nacionales de Yellowstone y Grand Teton.",
+      "Día 7: Visita a Las Vegas y tour por el Strip.",
+      "Día 8: Día de relax en la playa en Los Ángeles.",
+      "Día 9: Tour por Hollywood y Beverly Hills.",
+      "Día 10: Regreso a Lima."
+    ],
+    "considerations": [
+      "Llevar ropa cómoda y calzado adecuado para caminar.",
+      "Prepara tu cámara para capturar los lugares emblemáticos de Estados Unidos."
+    ],
+    "additional": [
+      "Alojamiento en hoteles de primera categoría.",
+      "Transporte y entradas a los sitios turísticos incluidas."
+    ],
+    "price": 2500,
+    "imgCarousel": [
+      "/img/ToursInternational/imagen5.webp",
+      "/img/ToursInternational/imagen6.webp",
+      "/img/ToursInternational/imagen7.webp",
+      "/img/ToursInternational/imagen8.webp"
+    ],
+    "comments": [
+      {
+        "img": "/img/ToursInternational/imagen9.webp",
+        "name": "María López",
+        "description": "Nueva York es una ciudad que nunca duerme. ¡Espectacular!"
+      },
+      {
+        "img": "/img/ToursInternational/imagen10.webp",
+        "name": "Juan Pérez",
+        "description": "Yellowstone es una maravilla natural. ¡Géiseres, fuentes termales y vida salvaje en abundancia!"
+      },
+      {
+        "img": "/img/ToursInternational/imagen11.webp",
+        "name": "Ana Martínez",
+        "description": "Las Vegas es una ciudad única, llena de luces y entretenimiento. ¡Inolvidable!"
+      }
+    ]
+  },
+  {
+    "id": "b4ec2a32-35e4-40a7-92da-6a1f0fd81032",
+    "tourOption": "Tours-Internacional",
+    "slug": "mexico",
+    "title": "México",
+    "name": "México",
+    "imgSlider": [
+      "/img/ToursInternational/imagen1.webp",
+      "/img/ToursInternational/imagen2.webp",
+      "/img/ToursInternational/imagen3.webp",
+      "/img/ToursInternational/imagen4.webp"
+    ],
+    "description": "Descubre la rica historia, la cultura vibrante y la deliciosa gastronomía de México.",
+    "timeTravel": "7 días",
+    "itinerary": [
+      "Día 1: Llegada a Ciudad de México y recorrido por el Zócalo.",
+      "Día 2: Visita a las pirámides de Teotihuacán.",
+      "Día 3: Tour por la ciudad de Puebla y Cholula.",
+      "Día 4: Excursión a la zona arqueológica de Palenque.",
+      "Día 5: Exploración de las playas de Cancún.",
+      "Día 6: Día libre para actividades acuáticas en Tulum.",
+      "Día 7: Regreso a Lima."
+    ],
+    "considerations": [
+      "Llevar ropa cómoda y calzado adecuado para caminar.",
+      "Prueba la auténtica comida mexicana y los deliciosos tacos durante tu visita."
+    ],
+    "additional": [
+      "Alojamiento en hoteles boutique y tradicionales mexicanos.",
+      "Transporte y entradas a los sitios turísticos incluidas."
+    ],
+    "price": 1800,
+    "imgCarousel": [
+      "/img/ToursInternational/imagen5.webp",
+      "/img/ToursInternational/imagen6.webp",
+      "/img/ToursInternational/imagen7.webp",
+      "/img/ToursInternational/imagen8.webp"
+    ],
+    "comments": [
+      {
+        "img": "/img/ToursInternational/imagen9.webp",
+        "name": "Elena Gómez",
+        "description": "Teotihuacán es un sitio arqueológico impresionante, con pirámides imponentes."
+      },
+      {
+        "img": "/img/ToursInternational/imagen10.webp",
+        "name": "Pablo Fernández",
+        "description": "Palenque es un lugar mágico que te transporta al pasado maya. ¡Una experiencia única!"
+      },
+      {
+        "img": "/img/ToursInternational/imagen11.webp",
+        "name": "Lucía Rodríguez",
+        "description": "Cancún es un paraíso en la Tierra, con playas de arena blanca y aguas cristalinas."
+      }
+    ]
+  },
+  {
+    "id": "723d5f43-66d7-4e8b-9e85-26f21b06b224",
+    "tourOption": "Tours-Internacional",
+    "slug": "europa",
+    "title": "Europa",
+    "name": "Europa",
+    "imgSlider": [
+      "/img/ToursInternational/imagen1.webp",
+      "/img/ToursInternational/imagen2.webp",
+      "/img/ToursInternational/imagen3.webp",
+      "/img/ToursInternational/imagen4.webp"
+    ],
+    "description": "Explora la fascinante historia, la cultura diversa y los impresionantes paisajes de Europa.",
+    "timeTravel": "15 días",
+    "itinerary": [
+      "Día 1-3: Llegada a París y recorrido por la Ciudad de la Luz.",
+      "Día 4-6: Viaje a Italia y visita a Roma, la Ciudad Eterna.",
+      "Día 7-9: Descubre la belleza de Venecia y Florencia.",
+      "Día 10-12: Atravesando los Alpes hasta llegar a Suiza.",
+      "Día 13-15: Finaliza el viaje en la majestuosa ciudad de Londres."
+    ],
+    "considerations": [
+      "Llevar ropa cómoda y calzado adecuado para caminar.",
+      "Prepárate para disfrutar de la deliciosa gastronomía europea."
+    ],
+    "additional": [
+      "Alojamiento en hoteles céntricos de alta calidad.",
+      "Transporte entre ciudades incluido en tren de alta velocidad."
+    ],
+    "price": 3000,
+    "imgCarousel": [
+      "/img/ToursInternational/imagen5.webp",
+      "/img/ToursInternational/imagen6.webp",
+      "/img/ToursInternational/imagen7.webp",
+      "/img/ToursInternational/imagen8.webp"
+    ],
+    "comments": [
+      {
+        "img": "/img/ToursInternational/imagen9.webp",
+        "name": "María López",
+        "description": "París es simplemente mágico, con sus icónicos monumentos y su encanto parisino."
+      },
+      {
+        "img": "/img/ToursInternational/imagen10.webp",
+        "name": "Juan Pérez",
+        "description": "Roma te transporta a través del tiempo, con su historia antigua y su ambiente vibrante."
+      },
+      {
+        "img": "/img/ToursInternational/imagen11.webp",
+        "name": "Ana Martínez",
+        "description": "Londres es una ciudad que nunca duerme, llena de cultura, arte y diversión."
+      }
+    ]
+  },
+  {
+    "id": "7b97e184-c8e9-4d97-8fd3-9d7796813d36",
+    "tourOption": "Tours-Internacional",
+    "slug": "asia",
+    "title": "Asia",
+    "name": "Asia",
+    "imgSlider": [
+      "/img/ToursInternational/imagen1.webp",
+      "/img/ToursInternational/imagen2.webp",
+      "/img/ToursInternational/imagen3.webp",
+      "/img/ToursInternational/imagen4.webp"
+    ],
+    "description": "Sumérgete en la rica historia, la cultura fascinante y los paisajes exóticos de Asia.",
+    "timeTravel": "20 días",
+    "itinerary": [
+      "Día 1-5: Llegada a Tokio, Japón, y exploración de la vibrante metrópoli.",
+      "Día 6-10: Viaje a China y visita a Beijing, Xi'an y Shanghai.",
+      "Día 11-15: Explora las maravillas naturales de Tailandia, incluyendo Bangkok y Chiang Mai.",
+      "Día 16-20: Finaliza el viaje con un recorrido cultural por la India, visitando Delhi, Agra y Jaipur."
+    ],
+    "considerations": [
+      "Llevar ropa ligera y cómoda, así como repelente de mosquitos.",
+      "Prepárate para probar la deliciosa gastronomía asiática en cada país que visites."
+    ],
+    "additional": [
+      "Alojamiento en hoteles de alta calidad.",
+      "Transporte entre ciudades incluido en vuelos domésticos y trenes de alta velocidad."
+    ],
+    "price": 4000,
+    "imgCarousel": [
+      "/img/ToursInternational/imagen5.webp",
+      "/img/ToursInternational/imagen6.webp",
+      "/img/ToursInternational/imagen7.webp",
+      "/img/ToursInternational/imagen8.webp"
+    ],
+    "comments": [
+      {
+        "img": "/img/ToursInternational/imagen9.webp",
+        "name": "Sofía Martínez",
+        "description": "Tokio es una ciudad futurista que nunca deja de sorprender. ¡Me encantó la experiencia de visitarla!"
+      },
+      {
+        "img": "/img/ToursInternational/imagen10.webp",
+        "name": "Juan López",
+        "description": "La Gran Muralla China es una maravilla del mundo que te deja sin aliento. ¡Una experiencia inolvidable!"
+      },
+      {
+        "img": "/img/ToursInternational/imagen11.webp",
+        "name": "Laura González",
+        "description": "Los templos de Tailandia son una muestra de la riqueza cultural y espiritual del país. ¡Una experiencia transformadora!"
+      }
+    ]
+  },
+  {
+    "id": "ea038f12-1b67-4d3d-b7f0-796a64c3d2a8",
+    "tourOption": "Tours-Internacional",
+    "slug": "africa",
+    "title": "África",
+    "name": "África",
+    "imgSlider": [
+      "/img/ToursInternational/imagen1.webp",
+      "/img/ToursInternational/imagen2.webp",
+      "/img/ToursInternational/imagen3.webp",
+      "/img/ToursInternational/imagen4.webp"
+    ],
+    "description": "Embárcate en una emocionante aventura para descubrir la diversidad cultural y la impresionante naturaleza de África.",
+    "timeTravel": "12 días",
+    "itinerary": [
+      "Día 1: Llegada a Ciudad del Cabo, Sudáfrica.",
+      "Día 2-4: Exploración de la Ruta Jardín y visita a los viñedos de Stellenbosch.",
+      "Día 5-7: Safari en el Parque Nacional Kruger.",
+      "Día 8-9: Visita a las Cataratas Victoria, en la frontera entre Zambia y Zimbabue.",
+      "Día 10-11: Recorrido por Marruecos, visitando Marrakech y el desierto del Sahara.",
+      "Día 12: Regreso a Lima."
+    ],
+    "considerations": [
+      "Llevar ropa cómoda y protector solar.",
+      "Prepararse para diferentes climas, desde calor tropical hasta desierto."
+    ],
+    "additional": [
+      "Alojamiento en hoteles y lodges seleccionados.",
+      "Transporte entre destinos incluido."
+    ],
+    "price": 2500,
+    "imgCarousel": [
+      "/img/ToursInternational/imagen5.webp",
+      "/img/ToursInternational/imagen6.webp",
+      "/img/ToursInternational/imagen7.webp",
+      "/img/ToursInternational/imagen8.webp"
+    ],
+    "comments": [
+      {
+        "img": "/img/ToursInternational/imagen9.webp",
+        "name": "Elena Gómez",
+        "description": "El safari en el Parque Nacional Kruger fue una experiencia increíble. ¡Vimos a los Cinco Grandes!"
+      },
+      {
+        "img": "/img/ToursInternational/imagen10.webp",
+        "name": "Pablo Fernández",
+        "description": "Las Cataratas Victoria son una maravilla natural impresionante. El rugido del agua es ensordecedor."
+      },
+      {
+        "img": "/img/ToursInternational/imagen11.webp",
+        "name": "Lucía Rodríguez",
+        "description": "El desierto del Sahara es vasto e impresionante. ¡Una experiencia que jamás olvidaré!"
+      }
+    ]
+  },
+  {
+    "id": "10bb4b5f-8e14-476d-b440-38e8d49d9979",
+    "tourOption": "Tours-Lima",
+    "slug": "full-day/islas-palomino",
+    "title": "Islas Palomino",
+    "name": "Islas Palomino",
+    "imgSlider": [
+      "/img/ToursLima/imagen1.webp",
+      "/img/ToursLima/imagen2.webp",
+      "/img/ToursLima/imagen3.webp",
+      "/img/ToursLima/imagen4.webp"
+    ],
+    "description": "Disfruta de un día lleno de aventuras explorando las hermosas Islas Palomino, hogar de una gran variedad de aves marinas y lobos marinos.",
+    "timeTravel": "Full Day",
+    "itinerary": [
+      "Salida temprano desde Lima.",
+      "Navegación hacia las Islas Palomino.",
+      "Avistamiento de aves marinas y lobos marinos.",
+      "Tiempo libre para nadar y hacer snorkel.",
+      "Regreso a Lima por la tarde."
+    ],
+    "considerations": [
+      "Llevar ropa cómoda y traje de baño.",
+      "Protección solar y sombrero para el sol."
+    ],
+    "additional": [
+      "Transporte ida y vuelta desde Lima.",
+      "Guía experto durante la excursión."
+    ],
+    "price": 80,
+    "imgCarousel": [
+      "/img/ToursLima/imagen5.webp",
+      "/img/ToursLima/imagen6.webp",
+      "/img/ToursLima/imagen7.webp",
+      "/img/ToursLima/imagen8.webp"
+    ],
+    "comments": [
+      {
+        "img": "/img/ToursLima/imagen9.webp",
+        "name": "Juan Pérez",
+        "description": "El avistamiento de lobos marinos en las Islas Palomino fue una experiencia inolvidable. ¡Recomendado!"
+      },
+      {
+        "img": "/img/ToursLima/imagen10.webp",
+        "name": "María González",
+        "description": "El paisaje marino alrededor de las Islas Palomino es espectacular. ¡Me encantó el tour!"
+      },
+      {
+        "img": "/img/ToursLima/imagen11.webp",
+        "name": "Pedro Rodríguez",
+        "description": "Una excursión perfecta para escapar del bullicio de la ciudad y disfrutar de la naturaleza."
+      }
+    ]
+  },
+  {
+    "id": "b4b27617-105e-4d14-847a-26a7bf17f42c",
+    "tourOption": "Tours-Lima",
+    "slug": "full-day/paracas",
+    "title": "Paracas",
+    "name": "Paracas",
+    "imgSlider": [
+      "/img/ToursLima/imagen1.webp",
+      "/img/ToursLima/imagen2.webp",
+      "/img/ToursLima/imagen3.webp",
+      "/img/ToursLima/imagen4.webp"
+    ],
+    "description": "Descubre la belleza natural y la biodiversidad de la Reserva Nacional de Paracas en un día lleno de aventuras.",
+    "timeTravel": "Full Day",
+    "itinerary": [
+      "Salida temprano desde Lima.",
+      "Llegada a Paracas y visita al Mirador de la Cruz.",
+      "Tour en bote por las Islas Ballestas.",
+      "Visita a la Reserva Nacional de Paracas.",
+      "Almuerzo en un restaurante local.",
+      "Regreso a Lima por la tarde."
+    ],
+    "considerations": [
+      "Llevar protector solar, sombrero y gafas de sol.",
+      "Ropa cómoda y calzado adecuado para caminar."
+    ],
+    "additional": [
+      "Transporte ida y vuelta desde Lima.",
+      "Almuerzo incluido en el tour."
+    ],
+    "price": 120,
+    "imgCarousel": [
+      "/img/ToursLima/imagen5.webp",
+      "/img/ToursLima/imagen6.webp",
+      "/img/ToursLima/imagen7.webp",
+      "/img/ToursLima/imagen8.webp"
+    ],
+    "comments": [
+      {
+        "img": "/img/ToursLima/imagen9.webp",
+        "name": "Elena Gómez",
+        "description": "Las Islas Ballestas son impresionantes, ¡vimos una gran variedad de aves y leones marinos!"
+      },
+      {
+        "img": "/img/ToursLima/imagen10.webp",
+        "name": "Juan Pérez",
+        "description": "La Reserva Nacional de Paracas es un lugar increíble, ¡las vistas son impresionantes!"
+      },
+      {
+        "img": "/img/ToursLima/imagen11.webp",
+        "name": "María González",
+        "description": "El tour fue muy bien organizado, y el guía fue muy informativo. ¡Lo recomiendo!"
+      }
+    ]
+  },
+  {
+    "id": "f7af49d7-2c0c-4f1b-b3c4-045b897af8cc",
+    "tourOption": "Tours-Lima",
+    "slug": "full-day/valle-sagrado",
+    "title": "Valle Sagrado",
+    "name": "Valle Sagrado",
+    "imgSlider": [
+      "/img/ToursLima/imagen1.webp",
+      "/img/ToursLima/imagen2.webp",
+      "/img/ToursLima/imagen3.webp",
+      "/img/ToursLima/imagen4.webp"
+    ],
+    "description": "Descubre la rica historia y la impresionante naturaleza del Valle Sagrado de los Incas en un día de exploración desde Lima.",
+    "timeTravel": "Full Day",
+    "itinerary": [
+      "Salida temprano desde Lima.",
+      "Visita a Pisac y su mercado artesanal.",
+      "Parada en el mirador de Taray.",
+      "Visita a la Fortaleza de Ollantaytambo.",
+      "Almuerzo buffet en Urubamba.",
+      "Visita a Chinchero y su iglesia colonial.",
+      "Regreso a Lima por la noche."
+    ],
+    "considerations": [
+      "Llevar ropa abrigada y calzado cómodo.",
+      "Protección solar y repelente de insectos."
+    ],
+    "additional": [
+      "Transporte ida y vuelta desde Lima en bus turístico.",
+      "Almuerzo buffet incluido en el tour."
+    ],
+    "price": 180,
+    "imgCarousel": [
+      "/img/ToursLima/imagen5.webp",
+      "/img/ToursLima/imagen6.webp",
+      "/img/ToursLima/imagen7.webp",
+      "/img/ToursLima/imagen8.webp"
+    ],
+    "comments": [
+      {
+        "img": "/img/ToursLima/imagen9.webp",
+        "name": "Pablo Fernández",
+        "description": "El Valle Sagrado es simplemente impresionante, con sus paisajes espectaculares y su rica historia."
+      },
+      {
+        "img": "/img/ToursLima/imagen10.webp",
+        "name": "Lucía Rodríguez",
+        "description": "La Fortaleza de Ollantaytambo es un lugar fascinante que te transporta al pasado. ¡Una visita obligada!"
+      },
+      {
+        "img": "/img/ToursLima/imagen11.webp",
+        "name": "María González",
+        "description": "El mercado de Pisac es genial para comprar artesanías locales y recuerdos. ¡Me encantó la experiencia!"
+      }
+    ]
+  },
+  {
+    "id": "ae92416f-f2a6-4de9-8f76-71f8db872d3e",
+    "tourOption": "Tours-Lima",
+    "slug": "full-day/lunahuana",
+    "title": "Lunahuaná",
+    "name": "Lunahuaná",
+    "imgSlider": [
+      "/img/ToursLima/imagen1.webp",
+      "/img/ToursLima/imagen2.webp",
+      "/img/ToursLima/imagen3.webp",
+      "/img/ToursLima/imagen4.webp"
+    ],
+    "description": "Disfruta de un día de aventuras en Lunahuaná, practicando deportes de aventura y disfrutando del hermoso paisaje del valle del río Cañete.",
+    "timeTravel": "Full Day",
+    "itinerary": [
+      "Salida temprano desde Lima.",
+      "Llegada a Lunahuaná y desayuno en un restaurante local.",
+      "Rafting en el río Cañete.",
+      "Tour en bicicleta por los viñedos y huertos.",
+      "Almuerzo buffet criollo.",
+      "Tiempo libre para disfrutar del pueblo o actividades adicionales.",
+      "Regreso a Lima por la tarde."
+    ],
+    "considerations": [
+      "Llevar ropa cómoda y calzado deportivo.",
+      "Protector solar y repelente de insectos."
+    ],
+    "additional": [
+      "Transporte ida y vuelta desde Lima.",
+      "Desayuno y almuerzo incluidos en el tour."
+    ],
+    "price": 100,
+    "imgCarousel": [
+      "/img/ToursLima/imagen5.webp",
+      "/img/ToursLima/imagen6.webp",
+      "/img/ToursLima/imagen7.webp",
+      "/img/ToursLima/imagen8.webp"
+    ],
+    "comments": [
+      {
+        "img": "/img/ToursLima/imagen9.webp",
+        "name": "Elena Gómez",
+        "description": "El rafting en el río Cañete fue una experiencia emocionante. ¡Me encantó la adrenalina!"
+      },
+      {
+        "img": "/img/ToursLima/imagen10.webp",
+        "name": "Juan Pérez",
+        "description": "Los paisajes de Lunahuaná son impresionantes, especialmente durante el tour en bicicleta."
+      },
+      {
+        "img": "/img/ToursLima/imagen11.webp",
+        "name": "María González",
+        "description": "El almuerzo criollo estuvo delicioso. ¡Una gran manera de terminar el día!"
+      }
+    ]
+  },
+  {
+    "id": "e41b8b7b-4475-4fc4-80b0-4f624e7b8dd9",
+    "tourOption": "Tours-Lima",
+    "slug": "full-day/huaral",
+    "title": "Huaral",
+    "name": "Huaral",
+    "imgSlider": [
+      "/img/ToursLima/imagen1.webp",
+      "/img/ToursLima/imagen2.webp",
+      "/img/ToursLima/imagen3.webp",
+      "/img/ToursLima/imagen4.webp"
+    ],
+    "description": "Descubre la belleza natural y cultural de Huaral en un día lleno de emocionantes actividades y deliciosa gastronomía.",
+    "timeTravel": "Full Day",
+    "itinerary": [
+      "Salida temprano desde Lima.",
+      "Visita a la Plaza de Armas de Huaral y la Iglesia Matriz.",
+      "Tour por una hacienda tradicional y degustación de productos locales.",
+      "Almuerzo buffet criollo en un restaurante campestre.",
+      "Visita a la Laguna de Pacaraos y tiempo libre para actividades opcionales.",
+      "Regreso a Lima por la tarde."
+    ],
+    "considerations": [
+      "Llevar ropa cómoda y calzado adecuado para caminar.",
+      "Protección solar y sombrero para el sol."
+    ],
+    "additional": [
+      "Transporte ida y vuelta desde Lima.",
+      "Almuerzo buffet incluido en el tour."
+    ],
+    "price": 90,
+    "imgCarousel": [
+      "/img/ToursLima/imagen5.webp",
+      "/img/ToursLima/imagen6.webp",
+      "/img/ToursLima/imagen7.webp",
+      "/img/ToursLima/imagen8.webp"
+    ],
+    "comments": [
+      {
+        "img": "/img/ToursLima/imagen9.webp",
+        "name": "Juan Pérez",
+        "description": "La degustación de productos locales en la hacienda fue una experiencia muy interesante. ¡Recomendado!"
+      },
+      {
+        "img": "/img/ToursLima/imagen10.webp",
+        "name": "María González",
+        "description": "La Laguna de Pacaraos es un lugar hermoso y tranquilo para relajarse y disfrutar de la naturaleza."
+      },
+      {
+        "img": "/img/ToursLima/imagen11.webp",
+        "name": "Elena Gómez",
+        "description": "El almuerzo criollo estuvo delicioso. ¡Una excelente manera de conocer la gastronomía local!"
+      }
+    ]
+  },
+  {
+    "id": "e0727ad1-1249-4c35-b426-4cb356c5a74c",
+    "tourOption": "Tours-Lima",
+    "slug": "full-day/antioquia",
+    "title": "Antioquía",
+    "name": "Antioquía",
+    "imgSlider": [
+      "/img/ToursLima/imagen1.webp",
+      "/img/ToursLima/imagen2.webp",
+      "/img/ToursLima/imagen3.webp",
+      "/img/ToursLima/imagen4.webp"
+    ],
+    "description": "Disfruta de un día de relax y conexión con la naturaleza en Antioquía, un encantador pueblo ubicado cerca de Lima.",
+    "timeTravel": "Full Day",
+    "itinerary": [
+      "Salida temprano desde Lima.",
+      "Llegada a Antioquía y paseo por sus pintorescas calles.",
+      "Visita a la Iglesia de San Francisco de Asís y el Parque Central.",
+      "Almuerzo típico en un restaurante local.",
+      "Tiempo libre para disfrutar del paisaje y actividades opcionales.",
+      "Regreso a Lima por la tarde."
+    ],
+    "considerations": [
+      "Llevar ropa cómoda y calzado adecuado para caminar.",
+      "Protección solar y repelente de insectos."
+    ],
+    "additional": [
+      "Transporte ida y vuelta desde Lima.",
+      "Almuerzo típico incluido en el tour."
+    ],
+    "price": 70,
+    "imgCarousel": [
+      "/img/ToursLima/imagen5.webp",
+      "/img/ToursLima/imagen6.webp",
+      "/img/ToursLima/imagen7.webp",
+      "/img/ToursLima/imagen8.webp"
+    ],
+    "comments": [
+      {
+        "img": "/img/ToursLima/imagen9.webp",
+        "name": "Lucía Rodríguez",
+        "description": "Antioquía es un lugar encantador para escapar del bullicio de la ciudad y relajarse rodeado de naturaleza."
+      },
+      {
+        "img": "/img/ToursLima/imagen10.webp",
+        "name": "Juan Pérez",
+        "description": "El almuerzo típico estuvo delicioso. ¡Una excelente manera de probar la comida tradicional de la región!"
+      },
+      {
+        "img": "/img/ToursLima/imagen11.webp",
+        "name": "María González",
+        "description": "El pueblo de Antioquía tiene un encanto especial. ¡Definitivamente vale la pena visitarlo!"
+      }
+    ]
+  },
+  {
+    "id": "7d40d171-bf8a-4915-bd0e-c93d63d08fe5",
+    "tourOption": "Tours-Lima",
+    "slug": "weekend/ica",
+    "title": "Ica",
+    "name": "Ica",
+    "imgSlider": [
+      "/img/ToursLima/imagen1.webp",
+      "/img/ToursLima/imagen2.webp",
+      "/img/ToursLima/imagen3.webp",
+      "/img/ToursLima/imagen4.webp"
+    ],
+    "description": "Explora la región vinícola de Ica, disfruta de las dunas de Huacachina y prueba la deliciosa gastronomía local en un fin de semana inolvidable.",
+    "timeTravel": "2 días",
+    "itinerary": [
+      "Salida temprano desde Lima el sábado.",
+      "Visita a las bodegas de vino en Ica y degustación de vinos.",
+      "Almuerzo en un restaurante local.",
+      "Actividades en las dunas de Huacachina, como sandboarding y paseos en buggy.",
+      "Cena en un restaurante con vista a las dunas.",
+      "Noche en un hotel en Huacachina.",
+      "Desayuno en el hotel el domingo.",
+      "Tiempo libre para disfrutar de la piscina o actividades opcionales.",
+      "Regreso a Lima el domingo por la tarde."
+    ],
+    "considerations": [
+      "Llevar ropa ligera y protector solar para el día.",
+      "Abrigo ligero para la noche en el desierto."
+    ],
+    "additional": [
+      "Transporte ida y vuelta desde Lima.",
+      "Degustación de vinos y cena incluidos en el tour."
+    ],
+    "price": 200,
+    "imgCarousel": [
+      "/img/ToursLima/imagen5.webp",
+      "/img/ToursLima/imagen6.webp",
+      "/img/ToursLima/imagen7.webp",
+      "/img/ToursLima/imagen8.webp"
+    ],
+    "comments": [
+      {
+        "img": "/img/ToursLima/imagen9.webp",
+        "name": "Elena Gómez",
+        "description": "La experiencia de sandboarding en las dunas de Huacachina fue emocionante. ¡Me divertí mucho!"
+      },
+      {
+        "img": "/img/ToursLima/imagen10.webp",
+        "name": "Juan Pérez",
+        "description": "La degustación de vinos en Ica fue muy interesante. ¡Probé algunos vinos deliciosos!"
+      },
+      {
+        "img": "/img/ToursLima/imagen11.webp",
+        "name": "María González",
+        "description": "Huacachina es un lugar mágico, especialmente al atardecer. ¡Una experiencia única!"
+      }
+    ]
+  },
+  {
+    "id": "e391166e-6a7b-4e0f-8552-5f101e2034e4",
+    "tourOption": "Tours-Lima",
+    "slug": "weekend/lunahuana",
+    "title": "Lunahuaná",
+    "name": "Lunahuaná",
+    "imgSlider": [
+      "/img/ToursLima/imagen1.webp",
+      "/img/ToursLima/imagen2.webp",
+      "/img/ToursLima/imagen3.webp",
+      "/img/ToursLima/imagen4.webp"
+    ],
+    "description": "Disfruta de un fin de semana de aventuras en Lunahuaná, practicando deportes de aventura y disfrutando del hermoso paisaje del valle del río Cañete.",
+    "timeTravel": "2 días",
+    "itinerary": [
+      "Salida temprano desde Lima el sábado.",
+      "Llegada a Lunahuaná y desayuno en un restaurante local.",
+      "Rafting en el río Cañete.",
+      "Tour en bicicleta por los viñedos y huertos.",
+      "Almuerzo buffet criollo.",
+      "Tiempo libre para disfrutar del pueblo o actividades opcionales.",
+      "Noche en un hospedaje local.",
+      "Desayuno en el hospedaje el domingo.",
+      "Regreso a Lima el domingo por la tarde."
+    ],
+    "considerations": [
+      "Llevar ropa cómoda y calzado deportivo.",
+      "Protector solar y repelente de insectos."
+    ],
+    "additional": [
+      "Transporte ida y vuelta desde Lima.",
+      "Desayuno y almuerzo incluidos en el tour.",
+      "Hospedaje incluido en el precio."
+    ],
+    "price": 220,
+    "imgCarousel": [
+      "/img/ToursLima/imagen5.webp",
+      "/img/ToursLima/imagen6.webp",
+      "/img/ToursLima/imagen7.webp",
+      "/img/ToursLima/imagen8.webp"
+    ],
+    "comments": [
+      {
+        "img": "/img/ToursLima/imagen9.webp",
+        "name": "Elena Gómez",
+        "description": "El rafting en el río Cañete fue una experiencia emocionante. ¡Me encantó la adrenalina!"
+      },
+      {
+        "img": "/img/ToursLima/imagen10.webp",
+        "name": "Juan Pérez",
+        "description": "Los paisajes de Lunahuaná son impresionantes, especialmente durante el tour en bicicleta."
+      },
+      {
+        "img": "/img/ToursLima/imagen11.webp",
+        "name": "María González",
+        "description": "El almuerzo criollo estuvo delicioso. ¡Una gran manera de terminar el día!"
+      }
+    ]
+  },
+  {
+    "id": "6d65ac7c-1e6c-426f-bc8e-437fb8a44628",
+    "tourOption": "Tours-Lima",
+    "slug": "weekend/paracas",
+    "title": "Paracas",
+    "name": "Paracas",
+    "imgSlider": [
+      "/img/ToursLima/imagen1.webp",
+      "/img/ToursLima/imagen2.webp",
+      "/img/ToursLima/imagen3.webp",
+      "/img/ToursLima/imagen4.webp"
+    ],
+    "description": "Descubre la impresionante belleza natural de Paracas y las Islas Ballestas en un fin de semana lleno de aventuras y paisajes increíbles.",
+    "timeTravel": "2 días",
+    "itinerary": [
+      "Salida temprano desde Lima el sábado.",
+      "Llegada a Paracas y tour en bote por las Islas Ballestas.",
+      "Visita al Mirador de La Cruz y al Museo Julio C. Tello.",
+      "Almuerzo en un restaurante local.",
+      "Tour en buggy por las dunas de Paracas.",
+      "Noche en un hotel en Paracas.",
+      "Desayuno en el hotel el domingo.",
+      "Visita a la Reserva Nacional de Paracas y tiempo libre para disfrutar de la playa.",
+      "Regreso a Lima el domingo por la tarde."
+    ],
+    "considerations": [
+      "Llevar ropa ligera y protector solar.",
+      "Abrigo ligero para la noche."
+    ],
+    "additional": [
+      "Transporte ida y vuelta desde Lima.",
+      "Tour en bote y almuerzo incluidos en el precio.",
+      "Hospedaje incluido en el precio."
+    ],
+    "price": 250,
+    "imgCarousel": [
+      "/img/ToursLima/imagen5.webp",
+      "/img/ToursLima/imagen6.webp",
+      "/img/ToursLima/imagen7.webp",
+      "/img/ToursLima/imagen8.webp"
+    ],
+    "comments": [
+      {
+        "img": "/img/ToursLima/imagen9.webp",
+        "name": "Lucía Rodríguez",
+        "description": "Las Islas Ballestas son increíbles, especialmente la variedad de vida marina que se puede ver durante el tour en bote."
+      },
+      {
+        "img": "/img/ToursLima/imagen10.webp",
+        "name": "Juan Pérez",
+        "description": "El tour en buggy por las dunas de Paracas fue muy divertido. ¡Recomiendo esta experiencia!"
+      },
+      {
+        "img": "/img/ToursLima/imagen11.webp",
+        "name": "Elena Gómez",
+        "description": "La Reserva Nacional de Paracas tiene paisajes espectaculares y una gran diversidad de flora y fauna."
+      }
+    ]
+  },
+  {
+    "id": "9c3196b7-e8b9-4e47-9019-f748d417d5a8",
+    "tourOption": "Tours-Lima",
+    "slug": "weekend/canete",
+    "title": "Cañete",
+    "name": "Cañete",
+    "imgSlider": [
+      "/img/ToursLima/imagen1.webp",
+      "/img/ToursLima/imagen2.webp",
+      "/img/ToursLima/imagen3.webp",
+      "/img/ToursLima/imagen4.webp"
+    ],
+    "description": "Explora los encantos de la provincia de Cañete en un fin de semana lleno de historia, naturaleza y deliciosa gastronomía.",
+    "timeTravel": "2 días",
+    "itinerary": [
+      "Salida temprano desde Lima el sábado.",
+      "Llegada a Cañete y visita al Santuario de Mamacona.",
+      "Almuerzo en un restaurante local.",
+      "Visita a la Hacienda San José y cata de pisco.",
+      "Noche en un hotel en Lunahuaná.",
+      "Desayuno en el hotel el domingo.",
+      "Visita a las Lomas de Asia y caminata por el bosque seco.",
+      "Almuerzo campestre.",
+      "Regreso a Lima el domingo por la tarde."
+    ],
+    "considerations": [
+      "Llevar ropa cómoda y calzado adecuado para caminar.",
+      "Protector solar y repelente de insectos."
+    ],
+    "additional": [
+      "Transporte ida y vuelta desde Lima.",
+      "Almuerzo y cata de pisco incluidos en el precio.",
+      "Hospedaje incluido en el precio."
+    ],
+    "price": 230,
+    "imgCarousel": [
+      "/img/ToursLima/imagen5.webp",
+      "/img/ToursLima/imagen6.webp",
+      "/img/ToursLima/imagen7.webp",
+      "/img/ToursLima/imagen8.webp"
+    ],
+    "comments": [
+      {
+        "img": "/img/ToursLima/imagen9.webp",
+        "name": "Juan Pérez",
+        "description": "La Hacienda San José es un lugar hermoso con una interesante historia. ¡La cata de pisco fue genial!"
+      },
+      {
+        "img": "/img/ToursLima/imagen10.webp",
+        "name": "Lucía Rodríguez",
+        "description": "Las Lomas de Asia tienen paisajes espectaculares y una gran diversidad de flora y fauna. ¡Una experiencia única!"
+      },
+      {
+        "img": "/img/ToursLima/imagen11.webp",
+        "name": "Elena Gómez",
+        "description": "El almuerzo campestre estuvo delicioso, con productos frescos y locales. ¡Recomendado!"
+      }
+    ]
+  },
+  {
+    "id": "cd01b92a-29c6-4bb7-a9cb-62e98b10cd29",
+    "tourOption": "Tours-Lima",
+    "slug": "weekend/chincha",
+    "title": "Chincha",
+    "name": "Chincha",
+    "imgSlider": [
+      "/img/ToursLima/imagen1.webp",
+      "/img/ToursLima/imagen2.webp",
+      "/img/ToursLima/imagen3.webp",
+      "/img/ToursLima/imagen4.webp"
+    ],
+    "description": "Descubre la rica historia y cultura afroperuana de Chincha en un fin de semana lleno de música, baile y deliciosa comida.",
+    "timeTravel": "2 días",
+    "itinerary": [
+      "Salida temprano desde Lima el sábado.",
+      "Visita a la Hacienda San José y recorrido por sus instalaciones.",
+      "Almuerzo típico afroperuano en un restaurante local.",
+      "Tarde de música y baile afroperuano en la Plaza de Armas.",
+      "Noche en un hotel en Chincha.",
+      "Desayuno en el hotel el domingo.",
+      "Visita a las Ruinas de Tambo de Viso y al Museo Afroperuano.",
+      "Almuerzo en un restaurante local.",
+      "Regreso a Lima el domingo por la tarde."
+    ],
+    "considerations": [
+      "Llevar ropa cómoda y zapatos para caminar.",
+      "Protector solar y sombrero para protegerse del sol."
+    ],
+    "additional": [
+      "Transporte ida y vuelta desde Lima.",
+      "Almuerzo incluido en el precio.",
+      "Hospedaje incluido en el precio."
+    ],
+    "price": 210,
+    "imgCarousel": [
+      "/img/ToursLima/imagen5.webp",
+      "/img/ToursLima/imagen6.webp",
+      "/img/ToursLima/imagen7.webp",
+      "/img/ToursLima/imagen8.webp"
+    ],
+    "comments": [
+      {
+        "img": "/img/ToursLima/imagen9.webp",
+        "name": "Lucía Rodríguez",
+        "description": "La música y baile afroperuano en la Plaza de Armas fue una experiencia cultural fascinante."
+      },
+      {
+        "img": "/img/ToursLima/imagen10.webp",
+        "name": "Juan Pérez",
+        "description": "Las Ruinas de Tambo de Viso son impresionantes y muestran la rica historia de la región."
+      },
+      {
+        "img": "/img/ToursLima/imagen11.webp",
+        "name": "María González",
+        "description": "El almuerzo afroperuano estuvo delicioso. ¡Una excelente manera de probar la cocina local!"
+      }
+    ]
+  },
+  {
+    "id": "8f9534d1-50a7-4905-9c0d-39309e158f97",
+    "tourOption": "Tours-Lima",
+    "slug": "weekend/huacho",
+    "title": "Huacho",
+    "name": "Huacho",
+    "imgSlider": [
+      "/img/ToursLima/imagen1.webp",
+      "/img/ToursLima/imagen2.webp",
+      "/img/ToursLima/imagen3.webp",
+      "/img/ToursLima/imagen4.webp"
+    ],
+    "description": "Disfruta de un fin de semana relajante en Huacho, explorando sus playas, saboreando su deliciosa gastronomía y conociendo su rica historia.",
+    "timeTravel": "2 días",
+    "itinerary": [
+      "Salida temprano desde Lima el sábado.",
+      "Llegada a Huacho y desayuno en un restaurante local.",
+      "Visita al Santuario de Santa María de Huacho.",
+      "Almuerzo en un restaurante frente al mar.",
+      "Tarde de relax en la playa y actividades acuáticas.",
+      "Noche en un hotel en Huacho.",
+      "Desayuno en el hotel el domingo.",
+      "Visita al Mercado de Huacho y tiempo libre para compras.",
+      "Regreso a Lima el domingo por la tarde."
+    ],
+    "considerations": [
+      "Llevar traje de baño, toalla y protector solar.",
+      "Abrigo ligero para la noche."
+    ],
+    "additional": [
+      "Transporte ida y vuelta desde Lima.",
+      "Desayuno y almuerzo incluidos en el precio.",
+      "Hospedaje incluido en el precio."
+    ],
+    "price": 180,
+    "imgCarousel": [
+      "/img/ToursLima/imagen5.webp",
+      "/img/ToursLima/imagen6.webp",
+      "/img/ToursLima/imagen7.webp",
+      "/img/ToursLima/imagen8.webp"
+    ],
+    "comments": [
+      {
+        "img": "/img/ToursLima/imagen9.webp",
+        "name": "Elena Gómez",
+        "description": "El Santuario de Santa María de Huacho es un lugar muy tranquilo y hermoso para visitar."
+      },
+      {
+        "img": "/img/ToursLima/imagen10.webp",
+        "name": "Juan Pérez",
+        "description": "Disfruté mucho de la tarde en la playa, nadando y tomando el sol."
+      },
+      {
+        "img": "/img/ToursLima/imagen11.webp",
+        "name": "Lucía Rodríguez",
+        "description": "El Mercado de Huacho tiene una gran variedad de productos frescos y locales. ¡Una visita interesante!"
+      }
+    ]
+  },
+  {
+    "id": "a74a6913-4f48-4ac4-8653-ec5a543b9ec5",
+    "tourOption": "Tours-Escolares",
+    "slug": "visita-de-estudios/museo-de-arte-de-lima",
+    "title": "Museo de Arte de Lima (MALI)",
+    "name": "Museo de Arte de Lima (MALI)",
+    "imgSlider": [
+      "/img/ToursSchool/imagen1.webp",
+      "/img/ToursSchool/imagen2.webp",
+      "/img/ToursSchool/imagen3.webp",
+      "/img/ToursSchool/imagen4.webp"
+    ],
+    "description": "Visita el Museo de Arte de Lima (MALI) y explora sus colecciones de arte precolombino, colonial y contemporáneo, perfecto para enriquecer el conocimiento artístico de los estudiantes.",
+    "timeTravel": "Full Day",
+    "itinerary": [
+      "Salida temprano desde el colegio en Lima.",
+      "Visita guiada al Museo de Arte de Lima (MALI) para explorar sus principales colecciones.",
+      "Tiempo libre para actividades educativas en el museo.",
+      "Regreso al colegio en Lima por la tarde."
+    ],
+    "considerations": [
+      "Llevar refrigerio y agua para el día.",
+      "Se recomienda llevar cuaderno y lápiz para tomar notas durante la visita."
+    ],
+    "additional": [
+      "Transporte ida y vuelta desde el colegio en Lima.",
+      "Entradas al museo incluidas en el precio."
+    ],
+    "price": 50,
+    "imgCarousel": [
+      "/img/ToursSchool/imagen5.webp",
+      "/img/ToursSchool/imagen6.webp",
+      "/img/ToursSchool/imagen7.webp",
+      "/img/ToursSchool/imagen8.webp"
+    ],
+    "comments": [
+      {
+        "img": "/img/ToursSchool/imagen9.webp",
+        "name": "Profesora Martínez",
+        "description": "La visita al MALI fue una experiencia educativa enriquecedora para mis estudiantes. ¡Aprendieron mucho sobre arte!"
+      },
+      {
+        "img": "/img/ToursSchool/imagen10.webp",
+        "name": "Padre Gómez",
+        "description": "Me encantó acompañar a mi hijo en la visita al MALI. Fue una excelente oportunidad para conectar con el arte."
+      },
+      {
+        "img": "/img/ToursSchool/imagen11.webp",
+        "name": "Estudiante Ana",
+        "description": "El MALI es un lugar increíble con obras de arte fascinantes. ¡Quiero volver!"
+      }
+    ]
+  },
+  {
+    "id": "0b77b250-22b0-4d19-9fcf-7ecb1fe4b24b",
+    "tourOption": "Tours-Escolares",
+    "slug": "visita-de-estudios/planetario-de-lima",
+    "title": "Planetario de Lima",
+    "name": "Planetario de Lima",
+    "imgSlider": [
+      "/img/ToursSchool/imagen1.webp",
+      "/img/ToursSchool/imagen2.webp",
+      "/img/ToursSchool/imagen3.webp",
+      "/img/ToursSchool/imagen4.webp"
+    ],
+    "description": "Explora el cosmos y aprende sobre astronomía en el Planetario de Lima, donde los estudiantes pueden disfrutar de proyecciones educativas y experiencias interactivas.",
+    "timeTravel": "Full Day",
+    "itinerary": [
+      "Salida temprano desde el colegio en Lima.",
+      "Visita al Planetario de Lima para disfrutar de proyecciones sobre el universo y la astronomía.",
+      "Actividades interactivas y explicaciones educativas sobre planetas, estrellas y galaxias.",
+      "Regreso al colegio en Lima por la tarde."
+    ],
+    "considerations": [
+      "Llevar refrigerio y agua para el día.",
+      "Se recomienda llevar cuaderno y lápiz para tomar notas durante la visita."
+    ],
+    "additional": [
+      "Transporte ida y vuelta desde el colegio en Lima.",
+      "Entradas al planetario incluidas en el precio."
+    ],
+    "price": 40,
+    "imgCarousel": [
+      "/img/ToursSchool/imagen5.webp",
+      "/img/ToursSchool/imagen6.webp",
+      "/img/ToursSchool/imagen7.webp",
+      "/img/ToursSchool/imagen8.webp"
+    ],
+    "comments": [
+      {
+        "img": "/img/ToursSchool/imagen9.webp",
+        "name": "Profesor Rodríguez",
+        "description": "El Planetario de Lima ofrece una experiencia educativa única para los estudiantes. ¡Fue fascinante!"
+      },
+      {
+        "img": "/img/ToursSchool/imagen10.webp",
+        "name": "Madre Pérez",
+        "description": "Mis hijos disfrutaron mucho de la visita al Planetario de Lima. Aprendieron sobre el universo de una manera divertida."
+      },
+      {
+        "img": "/img/ToursSchool/imagen11.webp",
+        "name": "Estudiante Carlos",
+        "description": "Nunca olvidaré la experiencia de ver las estrellas en el Planetario de Lima. ¡Fue increíble!"
+      }
+    ]
+  },
+  {
+    "id": "0f650166-0a41-4cfd-bcd0-745fe2d199c7",
+    "tourOption": "Tours-Escolares",
+    "slug": "visita-de-estudios/museo-de-la-nacion",
+    "title": "Museo de la Nación",
+    "name": "Museo de la Nación",
+    "imgSlider": [
+      "/img/ToursSchool/imagen1.webp",
+      "/img/ToursSchool/imagen2.webp",
+      "/img/ToursSchool/imagen3.webp",
+      "/img/ToursSchool/imagen4.webp"
+    ],
+    "description": "Descubre la historia y la cultura del Perú en el Museo de la Nación, que alberga exposiciones sobre arte, arqueología, antropología y más.",
+    "timeTravel": "Full Day",
+    "itinerary": [
+      "Salida temprano desde el colegio en Lima.",
+      "Visita guiada al Museo de la Nación para explorar sus exposiciones permanentes y temporales.",
+      "Tiempo libre para actividades educativas y recreativas en el museo.",
+      "Regreso al colegio en Lima por la tarde."
+    ],
+    "considerations": [
+      "Llevar refrigerio y agua para el día.",
+      "Se recomienda llevar cuaderno y lápiz para tomar notas durante la visita."
+    ],
+    "additional": [
+      "Transporte ida y vuelta desde el colegio en Lima.",
+      "Entradas al museo incluidas en el precio."
+    ],
+    "price": 60,
+    "imgCarousel": [
+      "/img/ToursSchool/imagen5.webp",
+      "/img/ToursSchool/imagen6.webp",
+      "/img/ToursSchool/imagen7.webp",
+      "/img/ToursSchool/imagen8.webp"
+    ],
+    "comments": [
+      {
+        "img": "/img/ToursSchool/imagen9.webp",
+        "name": "Profesora Sánchez",
+        "description": "El Museo de la Nación ofrece una experiencia educativa completa para los estudiantes. ¡Aprendieron mucho sobre la historia del Perú!"
+      },
+      {
+        "img": "/img/ToursSchool/imagen10.webp",
+        "name": "Padre Martínez",
+        "description": "Mis hijos disfrutaron mucho de la visita al Museo de la Nación. Fue una excelente oportunidad para aprender sobre nuestra cultura."
+      },
+      {
+        "img": "/img/ToursSchool/imagen11.webp",
+        "name": "Estudiante Laura",
+        "description": "Me encantaron las exposiciones del Museo de la Nación. ¡Fue una experiencia increíble!"
+      }
+    ]
+  },
+  {
+    "id": "b81d2063-14e6-4e8e-8c8d-4da520d03378",
+    "tourOption": "Tours-Escolares",
+    "slug": "visita-de-estudios/real-felipe",
+    "title": "Real Felipe",
+    "name": "Real Felipe",
+    "imgSlider": [
+      "/img/ToursSchool/imagen1.webp",
+      "/img/ToursSchool/imagen2.webp",
+      "/img/ToursSchool/imagen3.webp",
+      "/img/ToursSchool/imagen4.webp"
+    ],
+    "description": "Descubre la historia militar del Perú visitando el Real Felipe, una antigua fortaleza ubicada en el Callao. Los estudiantes pueden explorar sus murallas, museos y exhibiciones.",
+    "timeTravel": "Full Day",
+    "itinerary": [
+      "Salida temprano desde el colegio en Lima.",
+      "Visita guiada al Real Felipe para conocer su historia y arquitectura.",
+      "Exploración de las murallas y espacios del complejo.",
+      "Tiempo libre para actividades educativas en los museos y exhibiciones.",
+      "Regreso al colegio en Lima por la tarde."
+    ],
+    "considerations": [
+      "Llevar refrigerio y agua para el día.",
+      "Se recomienda llevar cuaderno y lápiz para tomar notas durante la visita."
+    ],
+    "additional": [
+      "Transporte ida y vuelta desde el colegio en Lima.",
+      "Entradas al Real Felipe incluidas en el precio."
+    ],
+    "price": 60,
+    "imgCarousel": [
+      "/img/ToursSchool/imagen5.webp",
+      "/img/ToursSchool/imagen6.webp",
+      "/img/ToursSchool/imagen7.webp",
+      "/img/ToursSchool/imagen8.webp"
+    ],
+    "comments": [
+      {
+        "img": "/img/ToursSchool/imagen9.webp",
+        "name": "Profesor Martínez",
+        "description": "La visita al Real Felipe fue muy educativa para mis estudiantes. Aprendieron mucho sobre la historia militar del Perú."
+      },
+      {
+        "img": "/img/ToursSchool/imagen10.webp",
+        "name": "Madre Pérez",
+        "description": "Mis hijos disfrutaron explorando las murallas y los museos del Real Felipe. ¡Fue una experiencia única!"
+      },
+      {
+        "img": "/img/ToursSchool/imagen11.webp",
+        "name": "Estudiante Ana",
+        "description": "Me impresionó la arquitectura y la grandeza del Real Felipe. ¡Fue una visita increíble!"
+      }
+    ]
+  },
+  {
+    "id": "a47218fe-91cb-4952-b634-3dd7020b2540",
+    "tourOption": "Tours-Escolares",
+    "slug": "viaje-de-estudios/cusco",
+    "title": "Cusco",
+    "name": "Cusco",
+    "imgSlider": [
+      "/img/ToursSchool/imagen1.webp",
+      "/img/ToursSchool/imagen2.webp",
+      "/img/ToursSchool/imagen3.webp",
+      "/img/ToursSchool/imagen4.webp"
+    ],
+    "description": "Descubre la rica historia y cultura de la antigua capital del Imperio Inca en un viaje educativo a Cusco, donde los estudiantes pueden explorar ruinas incas, museos y más.",
+    "timeTravel": "4 días",
+    "itinerary": [
+      "Día 1: Llegada a Cusco y visita a la Plaza de Armas, la Catedral y el Templo del Qorikancha.",
+      "Día 2: Excursión al Valle Sagrado de los Incas, incluyendo visitas a Pisac y Ollantaytambo.",
+      "Día 3: Excursión a Machu Picchu con guía turístico y tiempo libre para explorar el sitio.",
+      "Día 4: Regreso a Lima."
+    ],
+    "considerations": [
+      "Llevar ropa cómoda y abrigo para las mañanas y noches frescas.",
+      "Protector solar y repelente de insectos.",
+      "Altitud elevada en Cusco, se recomienda aclimatarse."
+    ],
+    "additional": [
+      "Transporte terrestre y aéreo incluido.",
+      "Alojamiento en hotel durante la estadía en Cusco.",
+      "Entradas a los sitios turísticos mencionados en el itinerario."
+    ],
+    "price": 600,
+    "imgCarousel": [
+      "/img/ToursSchool/imagen5.webp",
+      "/img/ToursSchool/imagen6.webp",
+      "/img/ToursSchool/imagen7.webp",
+      "/img/ToursSchool/imagen8.webp"
+    ],
+    "comments": [
+      {
+        "img": "/img/ToursSchool/imagen9.webp",
+        "name": "Profesor Rodríguez",
+        "description": "El viaje a Cusco fue una experiencia educativa inolvidable para mis estudiantes. Aprendieron mucho sobre la historia del Imperio Inca."
+      },
+      {
+        "img": "/img/ToursSchool/imagen10.webp",
+        "name": "Madre Pérez",
+        "description": "Mis hijos disfrutaron mucho explorando Machu Picchu y aprendiendo sobre la cultura inca. ¡Fue un viaje enriquecedor!"
+      },
+      {
+        "img": "/img/ToursSchool/imagen11.webp",
+        "name": "Estudiante Carlos",
+        "description": "Machu Picchu es realmente impresionante. ¡Me encantaría volver algún día!"
+      }
+    ]
+  },
+  {
+    "id": "58d07fc1-729e-493f-bf47-4e4f93780a10",
+    "tourOption": "Tours-Escolares",
+    "slug": "viaje-de-estudios/trujillo",
+    "title": "Trujillo",
+    "name": "Trujillo",
+    "imgSlider": [
+      "/img/ToursSchool/imagen1.webp",
+      "/img/ToursSchool/imagen2.webp",
+      "/img/ToursSchool/imagen3.webp",
+      "/img/ToursSchool/imagen4.webp"
+    ],
+    "description": "Explora la rica herencia cultural y arqueológica de Trujillo en un viaje de estudios, donde los estudiantes pueden visitar sitios arqueológicos, museos y más.",
+    "timeTravel": "4 días",
+    "itinerary": [
+      "Día 1: Llegada a Trujillo y visita a la Plaza de Armas, la Catedral y el Museo de Arqueología.",
+      "Día 2: Excursión a las Huacas del Sol y de la Luna, Chan Chan y el Museo Huacas de Moche.",
+      "Día 3: Visita a la Casa de la Emancipación y tiempo libre para explorar la ciudad.",
+      "Día 4: Regreso a Lima."
+    ],
+    "considerations": [
+      "Llevar ropa cómoda y abrigo para las mañanas y noches frescas.",
+      "Protector solar y repelente de insectos."
+    ],
+    "additional": [
+      "Transporte terrestre incluido.",
+      "Alojamiento en hotel durante la estadía en Trujillo.",
+      "Entradas a los sitios turísticos mencionados en el itinerario."
+    ],
+    "price": 550,
+    "imgCarousel": [
+      "/img/ToursSchool/imagen5.webp",
+      "/img/ToursSchool/imagen6.webp",
+      "/img/ToursSchool/imagen7.webp",
+      "/img/ToursSchool/imagen8.webp"
+    ],
+    "comments": [
+      {
+        "img": "/img/ToursSchool/imagen9.webp",
+        "name": "Profesora Martínez",
+        "description": "Mis estudiantes disfrutaron mucho del viaje a Trujillo y aprendieron sobre la cultura Moche y Chimú."
+      },
+      {
+        "img": "/img/ToursSchool/imagen10.webp",
+        "name": "Padre Gómez",
+        "description": "La visita a las Huacas del Sol y de la Luna fue fascinante. ¡Recomiendo este viaje educativo!"
+      },
+      {
+        "img": "/img/ToursSchool/imagen11.webp",
+        "name": "Estudiante Ana",
+        "description": "Trujillo tiene una historia muy interesante. ¡Me encantó explorar sus sitios arqueológicos!"
+      }
+    ]
+  },
+  {
+    "id": "e8251fc3-25c2-4b6b-ba9d-09fc5cb2d622",
+    "tourOption": "Tours-Escolares",
+    "slug": "viaje-de-estudios/arequipa",
+    "title": "Arequipa",
+    "name": "Arequipa",
+    "imgSlider": [
+      "/img/ToursSchool/imagen1.webp",
+      "/img/ToursSchool/imagen2.webp",
+      "/img/ToursSchool/imagen3.webp",
+      "/img/ToursSchool/imagen4.webp"
+    ],
+    "description": "Explora la Ciudad Blanca de Arequipa en un viaje educativo, donde los estudiantes pueden visitar lugares históricos, disfrutar de la arquitectura colonial y aprender sobre la cultura local.",
+    "timeTravel": "3 días",
+    "itinerary": [
+      "Día 1: Llegada a Arequipa y visita al Monasterio de Santa Catalina.",
+      "Día 2: Excursión al Cañón del Colca con observación de aves y tiempo libre en Chivay.",
+      "Día 3: Visita al Mirador de los Andes y regreso a Lima."
+    ],
+    "considerations": [
+      "Llevar ropa cómoda y abrigo para las mañanas y noches frescas.",
+      "Protector solar y repelente de insectos."
+    ],
+    "additional": [
+      "Transporte terrestre incluido.",
+      "Alojamiento en hotel durante la estadía en Arequipa.",
+      "Entradas a los sitios turísticos mencionados en el itinerario."
+    ],
+    "price": 650,
+    "imgCarousel": [
+      "/img/ToursSchool/imagen5.webp",
+      "/img/ToursSchool/imagen6.webp",
+      "/img/ToursSchool/imagen7.webp",
+      "/img/ToursSchool/imagen8.webp"
+    ],
+    "comments": [
+      {
+        "img": "/img/ToursSchool/imagen9.webp",
+        "name": "Profesora Rodríguez",
+        "description": "El viaje a Arequipa fue una experiencia educativa maravillosa para mis estudiantes. ¡Aprendieron sobre la historia y la naturaleza de la región!"
+      },
+      {
+        "img": "/img/ToursSchool/imagen10.webp",
+        "name": "Madre Pérez",
+        "description": "Mis hijos disfrutaron mucho explorando el Cañón del Colca. ¡Fue un viaje emocionante!"
+      },
+      {
+        "img": "/img/ToursSchool/imagen11.webp",
+        "name": "Estudiante Carlos",
+        "description": "Arequipa es una ciudad hermosa con una arquitectura impresionante. ¡Me encantaría volver algún día!"
+      }
+    ]
+  },
+  {
+    "id": "e15fe8df-2e5c-4a8e-b1ac-49a1db01575e",
+    "tourOption": "Tours-Escolares",
+    "slug": "viaje-de-estudios/chiclayo",
+    "title": "Chiclayo",
+    "name": "Chiclayo",
+    "imgSlider": [
+      "/img/ToursSchool/imagen1.webp",
+      "/img/ToursSchool/imagen2.webp",
+      "/img/ToursSchool/imagen3.webp",
+      "/img/ToursSchool/imagen4.webp"
+    ],
+    "description": "Descubre la rica historia y cultura del norte peruano en un viaje educativo a Chiclayo, donde los estudiantes pueden explorar museos, sitios arqueológicos y más.",
+    "timeTravel": "3 días",
+    "itinerary": [
+      "Día 1: Llegada a Chiclayo y visita al Museo Tumbas Reales de Sipán.",
+      "Día 2: Excursión a las Huacas del Sol y de la Luna, y al Complejo Arqueológico de Túcume.",
+      "Día 3: Visita al Mercado Modelo y regreso a Lima."
+    ],
+    "considerations": [
+      "Llevar ropa cómoda y abrigo para las mañanas y noches frescas.",
+      "Protector solar y repelente de insectos."
+    ],
+    "additional": [
+      "Transporte terrestre incluido.",
+      "Alojamiento en hotel durante la estadía en Chiclayo.",
+      "Entradas a los sitios turísticos mencionados en el itinerario."
+    ],
+    "price": 600,
+    "imgCarousel": [
+      "/img/ToursSchool/imagen5.webp",
+      "/img/ToursSchool/imagen6.webp",
+      "/img/ToursSchool/imagen7.webp",
+      "/img/ToursSchool/imagen8.webp"
+    ],
+    "comments": [
+      {
+        "img": "/img/ToursSchool/imagen9.webp",
+        "name": "Profesora Martínez",
+        "description": "El viaje a Chiclayo fue una experiencia educativa fantástica para mis estudiantes. Aprendieron sobre la cultura mochica y lambayecana."
+      },
+      {
+        "img": "/img/ToursSchool/imagen10.webp",
+        "name": "Padre Gómez",
+        "description": "Mis hijos quedaron fascinados con las ruinas de Túcume. ¡Fue un viaje muy instructivo!"
+      },
+      {
+        "img": "/img/ToursSchool/imagen11.webp",
+        "name": "Estudiante Ana",
+        "description": "Chiclayo tiene una historia muy interesante. ¡Me encantó explorar sus museos y sitios arqueológicos!"
+      }
+    ]
+  },
+  {
+    "id": "07d4a7cb-f4b2-47d4-a3e3-4c7a5e12e4d1",
+    "tourOption": "Tours-Escolares",
+    "slug": "viaje-de-promocion/chiclayo",
+    "title": "Chiclayo",
+    "name": "Chiclayo",
+    "imgSlider": [
+      "/img/ToursSchool/imagen1.webp",
+      "/img/ToursSchool/imagen2.webp",
+      "/img/ToursSchool/imagen3.webp",
+      "/img/ToursSchool/imagen4.webp"
+    ],
+    "description": "Descubre la rica historia y cultura del norte del Perú con un viaje a Chiclayo, la ciudad de la amistad, famosa por su gastronomía, sitios arqueológicos y tradiciones folclóricas.",
+    "timeTravel": "6 días",
+    "itinerary": [
+      "Día 1: Visita al Museo Tumbas Reales de Sipán.",
+      "Día 2: Excursión a la ciudad de Lambayeque y tiempo libre para compras.",
+      "Día 3: Tour a las pirámides de Túcume y el Museo de Sitio de Túcume.",
+      "Día 4: Tour a la Reserva Ecológica de Chaparri.",
+      "Día 5: Visita al Complejo Arqueológico de Huaca Rajada.",
+      "Día 6: Regreso a Lima."
+    ],
+    "considerations": [
+      "Llevar repelente de insectos y protector solar.",
+      "Probar la deliciosa gastronomía local, como el ceviche de cabrito y el arroz con pato.",
+      "Respetar las indicaciones del guía durante las visitas a sitios arqueológicos."
+    ],
+    "additional": [
+      "Transporte terrestre incluido para excursiones.",
+      "Alojamiento en hotel durante la estadía en Chiclayo."
+    ],
+    "price": 850,
+    "imgCarousel": [
+      "/img/ToursSchool/imagen5.webp",
+      "/img/ToursSchool/imagen6.webp",
+      "/img/ToursSchool/imagen7.webp",
+      "/img/ToursSchool/imagen8.webp"
+    ],
+    "comments": [
+      {
+        "img": "/img/ToursSchool/imagen9.webp",
+        "name": "Profesora Martínez",
+        "description": "El viaje a Chiclayo fue una experiencia educativa fantástica para mis estudiantes. Aprendieron sobre la cultura mochica y lambayecana."
+      },
+      {
+        "img": "/img/ToursSchool/imagen10.webp",
+        "name": "Padre Gómez",
+        "description": "Mis hijos quedaron fascinados con las ruinas de Túcume. ¡Fue un viaje muy instructivo!"
+      },
+      {
+        "img": "/img/ToursSchool/imagen11.webp",
+        "name": "Estudiante Ana",
+        "description": "Chiclayo tiene una historia muy interesante. ¡Me encantó explorar sus museos y sitios arqueológicos!"
+      }
+    ]
+  },
+  {
+    "id": "97fb45df-5587-4e9f-b8f9-39e6fb29441b",
+    "tourOption": "Tours-Escolares",
+    "slug": "viaje-de-promocion/trujillo",
+    "title": "Trujillo",
+    "name": "Trujillo",
+    "imgSlider": [
+      "/img/ToursSchool/imagen1.webp",
+      "/img/ToursSchool/imagen2.webp",
+      "/img/ToursSchool/imagen3.webp",
+      "/img/ToursSchool/imagen4.webp"
+    ],
+    "description": "Descubre la rica herencia cultural del norte del Perú con un viaje educativo a Trujillo, una ciudad llena de historia, arquitectura colonial y sitios arqueológicos impresionantes.",
+    "timeTravel": "5 días",
+    "itinerary": [
+      "Día 1: Visita a la Plaza de Armas y la Catedral de Trujillo.",
+      "Día 2: Excursión al complejo arqueológico de Chan Chan y al Museo Huacas de Moche.",
+      "Día 3: Tour a las Huacas del Sol y de la Luna y al Museo Nacional de Arqueología.",
+      "Día 4: Excursión a la playa de Huanchaco y visita a la ciudadela de Huaca del Dragón.",
+      "Día 5: Regreso a Lima."
+    ],
+    "considerations": [
+      "Llevar ropa cómoda y sombrero para protegerse del sol.",
+      "Probar la deliciosa gastronomía local, como el ceviche de caballo y la sopa teóloga.",
+      "Respetar las indicaciones del guía durante las visitas a los sitios arqueológicos."
+    ],
+    "additional": [
+      "Transporte terrestre incluido para excursiones.",
+      "Alojamiento en hotel durante la estadía en Trujillo."
+    ],
+    "price": 780,
+    "imgCarousel": [
+      "/img/ToursSchool/imagen5.webp",
+      "/img/ToursSchool/imagen6.webp",
+      "/img/ToursSchool/imagen7.webp",
+      "/img/ToursSchool/imagen8.webp"
+    ],
+    "comments": [
+      {
+        "img": "/img/ToursSchool/imagen9.webp",
+        "name": "Profesor Juan",
+        "description": "Los estudiantes disfrutaron mucho explorando las antiguas ruinas de Chan Chan. Fue una experiencia educativa muy valiosa."
+      },
+      {
+        "img": "/img/ToursSchool/imagen10.webp",
+        "name": "Madre Teresa",
+        "description": "Mi hijo quedó impresionado con la arquitectura de la Huaca del Sol y de la Luna. ¡Fue un viaje que recordará para siempre!"
+      },
+      {
+        "img": "/img/ToursSchool/imagen11.webp",
+        "name": "Estudiante Miguel",
+        "description": "Trujillo es una ciudad fascinante con tanto por descubrir. ¡Me encantaría volver algún día para explorar más!"
+      }
+    ]
+  },
+  {
+    "id": "cdbb0c02-89b3-46b4-9346-4f6c6eb7b727",
+    "tourOption": "Tours-Escolares",
+    "slug": "viaje-de-promocion/paracas",
+    "title": "Paracas",
+    "name": "Paracas",
+    "imgSlider": [
+      "/img/ToursSchool/imagen1.webp",
+      "/img/ToursSchool/imagen2.webp",
+      "/img/ToursSchool/imagen3.webp",
+      "/img/ToursSchool/imagen4.webp"
+    ],
+    "description": "Descubre la impresionante belleza natural de Paracas con este viaje educativo. Visita las Islas Ballestas, observa la Reserva Nacional de Paracas y disfruta del fascinante desierto costero.",
+    "timeTravel": "4 días",
+    "itinerary": [
+      "Día 1: Visita a la Reserva Nacional de Paracas y tour por la Catedral de Sal de Pisco.",
+      "Día 2: Excursión en bote a las Islas Ballestas para observar la fauna marina.",
+      "Día 3: Tour en buggy por el desierto costero de Paracas.",
+      "Día 4: Tiempo libre para actividades opcionales y regreso a Lima."
+    ],
+    "considerations": [
+      "Llevar protector solar, sombrero y gafas de sol.",
+      "Traje de baño y toalla para disfrutar de las playas de Paracas.",
+      "Respetar las indicaciones del guía durante las excursiones."
+    ],
+    "additional": [
+      "Transporte terrestre incluido para excursiones.",
+      "Alojamiento en hotel durante la estadía en Paracas."
+    ],
+    "price": 700,
+    "imgCarousel": [
+      "/img/ToursSchool/imagen5.webp",
+      "/img/ToursSchool/imagen6.webp",
+      "/img/ToursSchool/imagen7.webp",
+      "/img/ToursSchool/imagen8.webp"
+    ],
+    "comments": [
+      {
+        "img": "/img/ToursSchool/imagen9.webp",
+        "name": "Profesor García",
+        "description": "Los estudiantes quedaron maravillados con las formaciones rocosas y la fauna de las Islas Ballestas. ¡Fue una experiencia inolvidable!"
+      },
+      {
+        "img": "/img/ToursSchool/imagen10.webp",
+        "name": "Madre Luisa",
+        "description": "Paracas es un destino perfecto para un viaje escolar. Mis hijos disfrutaron mucho aprendiendo sobre la biodiversidad marina y terrestre."
+      },
+      {
+        "img": "/img/ToursSchool/imagen11.webp",
+        "name": "Estudiante Sofía",
+        "description": "La Reserva Nacional de Paracas es realmente impresionante. Me encantó observar las aves y los lobos marinos en su hábitat natural."
+      }
+    ]
+  },
+  {
+    "id": "0b914e1f-1cfd-4e4c-b678-c17ef92691d3",
+    "tourOption": "Tours-Escolares",
+    "slug": "viaje-de-promocion/huancayo",
+    "title": "Huancayo",
+    "name": "Huancayo",
+    "imgSlider": [
+      "/img/ToursSchool/imagen1.webp",
+      "/img/ToursSchool/imagen2.webp",
+      "/img/ToursSchool/imagen3.webp",
+      "/img/ToursSchool/imagen4.webp"
+    ],
+    "description": "Descubre la belleza natural y la rica cultura andina de Huancayo, ubicada en la región central de Perú. Disfruta de sus paisajes impresionantes, su deliciosa gastronomía y sus festivales folclóricos.",
+    "timeTravel": "5 días",
+    "itinerary": [
+      "Día 1: Llegada a Huancayo y visita a la Plaza de Armas y la Catedral de Huancayo.",
+      "Día 2: Excursión al Parque Nacional Huaytapallana para hacer senderismo y disfrutar de las vistas panorámicas.",
+      "Día 3: Tour al Valle del Mantaro y al Complejo Arqueológico de Tunanmarca.",
+      "Día 4: Visita a la Reserva Paisajística Nor Yauyos Cochas y a las cataratas de Huagapo.",
+      "Día 5: Tiempo libre para compras y actividades opcionales antes de regresar a Lima."
+    ],
+    "considerations": [
+      "Llevar ropa abrigada y calzado adecuado para caminatas.",
+      "Probar la deliciosa gastronomía local, como la pachamanca y la trucha frita.",
+      "Respetar las costumbres locales y la naturaleza durante las excursiones."
+    ],
+    "additional": [
+      "Transporte terrestre incluido para excursiones.",
+      "Alojamiento en hotel durante la estadía en Huancayo."
+    ],
+    "price": 950,
+    "imgCarousel": [
+      "/img/ToursSchool/imagen5.webp",
+      "/img/ToursSchool/imagen6.webp",
+      "/img/ToursSchool/imagen7.webp",
+      "/img/ToursSchool/imagen8.webp"
+    ],
+    "comments": [
+      {
+        "img": "/img/ToursSchool/imagen9.webp",
+        "name": "Profesor López",
+        "description": "Huancayo es un destino encantador con una combinación perfecta de naturaleza y cultura. Mis estudiantes disfrutaron mucho explorando los paisajes de Huaytapallana y aprendiendo sobre la historia local en Tunanmarca."
+      },
+      {
+        "img": "/img/ToursSchool/imagen10.webp",
+        "name": "Madre Ana",
+        "description": "Los festivales folclóricos en Huancayo son increíbles. Mis hijos disfrutaron mucho bailando y aprendiendo sobre la cultura andina."
+      },
+      {
+        "img": "/img/ToursSchool/imagen11.webp",
+        "name": "Estudiante Carlos",
+        "description": "Huancayo es un destino perfecto para los amantes de la naturaleza. Las vistas desde el Parque Nacional Huaytapallana son impresionantes."
+      }
+    ]
+  },
+  {
+    "id": "bf5de464-c36b-49a5-95a3-743e5fc44a51",
+    "tourOption": "Tours-Escolares",
+    "slug": "viaje-de-promocion/cajamarca",
+    "title": "Cajamarca",
+    "name": "Cajamarca",
+    "imgSlider": [
+      "/img/ToursSchool/imagen1.webp",
+      "/img/ToursSchool/imagen2.webp",
+      "/img/ToursSchool/imagen3.webp",
+      "/img/ToursSchool/imagen4.webp"
+    ],
+    "description": "Explora la histórica ciudad de Cajamarca, famosa por sus complejos arqueológicos, aguas termales y festivales culturales. Sumérgete en la fascinante historia precolombina y colonial de esta encantadora ciudad andina.",
+    "timeTravel": "6 días",
+    "itinerary": [
+      "Día 1: Llegada a Cajamarca y visita a la Plaza de Armas y la Iglesia de San Francisco.",
+      "Día 2: Excursión al complejo arqueológico de Cumbemayo y a la Ventanillas de Otuzco.",
+      "Día 3: Tour a las aguas termales de Baños del Inca y al complejo arqueológico de Layzón.",
+      "Día 4: Visita al complejo arqueológico de Kuntur Wasi y al Mirador Santa Apolonia.",
+      "Día 5: Tour a la Granja Porcón y al Complejo Arqueológico de Ventanillas de Combayo.",
+      "Día 6: Tiempo libre para compras y actividades opcionales antes de regresar a Lima."
+    ],
+    "considerations": [
+      "Llevar ropa abrigada y calzado cómodo para caminatas.",
+      "Probar las delicias gastronómicas locales, como el quesillo, el manjar blanco y los anticuchos.",
+      "Respetar las indicaciones del guía durante las visitas a los sitios arqueológicos."
+    ],
+    "additional": [
+      "Transporte terrestre incluido para excursiones.",
+      "Alojamiento en hotel durante la estadía en Cajamarca."
+    ],
+    "price": 900,
+    "imgCarousel": [
+      "/img/ToursSchool/imagen5.webp",
+      "/img/ToursSchool/imagen6.webp",
+      "/img/ToursSchool/imagen7.webp",
+      "/img/ToursSchool/imagen8.webp"
+    ],
+    "comments": [
+      {
+        "img": "/img/ToursSchool/imagen9.webp",
+        "name": "Profesor Gómez",
+        "description": "Cajamarca es una ciudad fascinante con una rica historia. Mis estudiantes disfrutaron mucho explorando los complejos arqueológicos y las aguas termales."
+      },
+      {
+        "img": "/img/ToursSchool/imagen10.webp",
+        "name": "Madre Laura",
+        "description": "Mis hijos quedaron impresionados con la belleza natural de Cajamarca. ¡Disfrutaron mucho explorando las Ventanillas de Otuzco y las aguas termales de Baños del Inca!"
+      },
+      {
+        "img": "/img/ToursSchool/imagen11.webp",
+        "name": "Estudiante María",
+        "description": "Cajamarca es un destino increíble con tantas cosas por descubrir. ¡Me encantó aprender sobre la historia y la cultura de la región!"
+      }
+    ]
+  },
+  {
+    "id": "ef13443f-eb70-4f8e-82a2-3b738ad7b2c2",
+    "tourOption": "Tours-Escolares",
+    "slug": "viaje-de-promocion/cancun",
+    "title": "Cancún",
+    "name": "Cancún",
+    "imgSlider": [
+      "/img/ToursSchool/imagen1.webp",
+      "/img/ToursSchool/imagen2.webp",
+      "/img/ToursSchool/imagen3.webp",
+      "/img/ToursSchool/imagen4.webp"
+    ],
+    "description": "Disfruta de las playas de arena blanca y las aguas cristalinas del Caribe mexicano con un emocionante viaje educativo a Cancún. Explora los sitios arqueológicos mayas, visita parques temáticos y sumérgete en la cultura local.",
+    "timeTravel": "5 días",
+    "itinerary": [
+      "Día 1: Llegada a Cancún y tarde de playa en la Zona Hotelera.",
+      "Día 2: Excursión al yacimiento arqueológico de Tulum y al cenote Dos Ojos.",
+      "Día 3: Día de diversión en Xcaret Park, donde podrás disfrutar de actividades acuáticas y culturales.",
+      "Día 4: Tour en catamarán a Isla Mujeres y tiempo libre para explorar la isla.",
+      "Día 5: Tiempo libre para compras y actividades opcionales antes de regresar a Lima."
+    ],
+    "considerations": [
+      "Llevar traje de baño, toalla, protector solar y repelente de insectos.",
+      "Calzado cómodo para caminar durante las excursiones.",
+      "Respetar las indicaciones del guía durante las actividades acuáticas."
+    ],
+    "additional": [
+      "Transporte terrestre incluido para excursiones.",
+      "Alojamiento en hotel de la Zona Hotelera de Cancún."
+    ],
+    "price": 1200,
+    "imgCarousel": [
+      "/img/ToursSchool/imagen5.webp",
+      "/img/ToursSchool/imagen6.webp",
+      "/img/ToursSchool/imagen7.webp",
+      "/img/ToursSchool/imagen8.webp"
+    ],
+    "comments": [
+      {
+        "img": "/img/ToursSchool/imagen9.webp",
+        "name": "Profesora Rodríguez",
+        "description": "Cancún ofrece una combinación perfecta de belleza natural y cultura. Mis estudiantes disfrutaron mucho explorando las ruinas de Tulum y nadando en los cenotes."
+      },
+      {
+        "img": "/img/ToursSchool/imagen10.webp",
+        "name": "Padre Carlos",
+        "description": "¡El Parque Xcaret fue lo mejor! Mis hijos se divirtieron mucho y aprendieron sobre la historia y la cultura de México."
+      },
+      {
+        "img": "/img/ToursSchool/imagen11.webp",
+        "name": "Estudiante Diego",
+        "description": "Cancún es un paraíso. Las playas son increíbles y hay tantas cosas que hacer. ¡Quiero volver pronto!"
+      }
+    ]
+  } 
+]

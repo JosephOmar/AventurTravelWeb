@@ -1,0 +1,320 @@
+---
+import AventurTravelLogo from "./Icons/AventurTravelLogo.astro";
+import AventurTravelLogoText from "./Icons/AventurTravelLogoText.astro";
+import {
+  TOURS_ESCOLAR,
+  TOURS_INTERNATIONAL,
+  TOURS_LIMA,
+  TOURS_NACIONAL,
+} from "./Main/dataInfo";
+---
+
+<header class="header fixed w-full left-0 top-0 z-[2000] p-[15px]">
+  <div class="container max-w-[1300px] mx-auto rounded-tl-lg rounded-bl-lg">
+    <div
+      class="header-main bg-white flex justify-between items-center px-[10px] rounded-lg"
+    >
+      <a class="logo flex items-center px-[15px]" href="/">
+        <AventurTravelLogo class="w-[80px]" />
+        <AventurTravelLogoText class="w-[200px] h-[40px]" />
+      </a>
+      <div class="open-nav-menu">
+        <span></span>
+      </div>
+      <div class="menu-overlay"></div>
+      <!-- navigation menu start -->
+      <nav class="nav-menu">
+        <div class="close-nav-menu">
+          <img src="/close.svg" alt="close" />
+        </div>
+        <ul class="menu">
+          <li class="menu-item inline-block ml-[30px] relative">
+            <a href="/" class="text-[#e91e63]">Inicio</a>
+          </li>
+          <li class="menu-item inline-block ml-[30px] relative">
+            <a href="/Nosotros" class="">Nosotros</a>
+          </li>
+          <li
+            class="menu-item inline-block ml-[30px] relative menu-item-has-children"
+          >
+            <a href="/tour-nacional" class="" data-toggle="sub-menu"
+              >Tours Nacional<i class="plus"></i></a
+            >
+            <ul class="sub-menu">
+              {
+                TOURS_NACIONAL.map(({ name, link }) => (
+                  <li class="menu-item">
+                    <a href={link}>{name}</a>
+                  </li>
+                ))
+              }
+            </ul>
+          </li>
+          <li
+            class="menu-item inline-block ml-[30px] relative menu-item-has-children"
+          >
+            <a href="/tour-internacional" class="" data-toggle="sub-menu"
+              >Tours Internacional<i class="plus"></i></a
+            >
+            <ul class="sub-menu">
+              {
+                TOURS_INTERNATIONAL.map(({ name, link }) => (
+                  <li class="menu-item">
+                    <a href={link}>{name}</a>
+                  </li>
+                ))
+              }
+            </ul>
+          </li>
+          <li
+            class="menu-item inline-block ml-[30px] relative menu-item-has-children"
+          >
+            <a href="/tour-lima" class="" data-toggle="sub-menu"
+              >Tours Lima<i class="plus"></i></a
+            >
+            <ul class="sub-menu">
+              {
+                TOURS_LIMA.map(({ name, link }) => (
+                  <li class="menu-item">
+                    <a href={link}>{name}</a>
+                  </li>
+                ))
+              }
+            </ul>
+          </li>
+          <li
+            class="menu-item inline-block ml-[30px] relative menu-item-has-children"
+          >
+            <a href="/tour-escolar" class="" data-toggle="sub-menu"
+              >Tours Escolares<i class="plus"></i></a
+            >
+            <ul class="sub-menu">
+              {
+                TOURS_ESCOLAR.map(({ name, link }) => (
+                  <li class="menu-item">
+                    <a href={link}>{name}</a>
+                  </li>
+                ))
+              }
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>
+<script src="./JS/index.js"></script>
+
+
+<style>
+  @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600&display=swap");
+  /*header*/
+  .header .menu > .menu-item > a {
+    display: block;
+    padding: 12px 0;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 600;
+    transition: all 0.3s ease;
+  }
+  .header .menu > .menu-item > a .plus {
+    display: inline-block;
+    height: 12px;
+    width: 12px;
+    position: relative;
+    margin-left: 5px;
+    pointer-events: none;
+  }
+  .header .menu > .menu-item > a .plus:before,
+  .header .menu > .menu-item > a .plus:after {
+    content: "";
+    position: absolute;
+    box-sizing: border-box;
+    left: 50%;
+    top: 50%;
+    background-color: #000000;
+    height: 2px;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    transition: all 0.3s ease;
+  }
+  .header .menu > .menu-item:hover > a .plus:before,
+  .header .menu > .menu-item:hover > a .plus:after {
+    background-color: #e91e63;
+  }
+  .header .menu > .menu-item > a .plus:after {
+    transform: translate(-50%, -50%) rotate(-90deg);
+  }
+  .header .menu > .menu-item > .sub-menu > .menu-item > a:hover,
+  .header .menu > .menu-item:hover > a {
+    color: #e91e63;
+  }
+  .header .menu > .menu-item > .sub-menu {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 220px;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: #ffffff;
+    padding: 10px 0;
+    border-top: 3px solid #e91e63;
+    transform: translateY(10px);
+    transition: all 0.3s ease;
+    opacity: 0;
+    visibility: hidden;
+  }
+  @media (min-width: 1225px) {
+    .header .menu > .menu-item-has-children:hover > .sub-menu {
+      transform: translateY(0);
+      opacity: 1;
+      visibility: visible;
+    }
+    .header .menu > .menu-item-has-children:hover > a .plus:after {
+      transform: translate(-50%, -50%) rotate(0deg);
+    }
+  }
+  .header .menu > .menu-item > .sub-menu > .menu-item {
+    display: block;
+  }
+  .header .menu > .menu-item > .sub-menu > .menu-item > a {
+    display: block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #000000;
+    transition: all 0.3s ease;
+    text-transform: capitalize;
+  }
+  .header .open-nav-menu {
+    height: 34px;
+    width: 40px;
+    margin-right: 15px;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  .header .open-nav-menu span {
+    display: block;
+    height: 3px;
+    width: 24px;
+    background-color: #000000;
+    position: relative;
+  }
+  .header .open-nav-menu span:before,
+  .header .open-nav-menu span:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    box-sizing: border-box;
+  }
+  .header .open-nav-menu span:before {
+    top: -7px;
+  }
+  .header .open-nav-menu span:after {
+    top: 7px;
+  }
+  .header .close-nav-menu {
+    height: 40px;
+    width: 40px;
+    background-color: #ffffff;
+    margin: 0 0 15px 15px;
+    cursor: pointer;
+    display: none;
+    align-items: center;
+    justify-content: center;
+  }
+  .header .close-nav-menu img {
+    width: 16px;
+  }
+  .header .menu-overlay {
+    position: fixed;
+    z-index: 2000;
+    background-color: rgba(0, 0, 0, 0.5);
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.3s ease;
+  }
+
+  /* responsive */
+
+  @media (max-width: 1225px) {
+    .header .menu-overlay.active {
+      visibility: visible;
+      opacity: 1;
+    }
+    .header .nav-menu {
+      position: fixed;
+      right: -280px;
+      visibility: hidden;
+      width: 280px;
+      height: 100%;
+      top: 0;
+      overflow-y: auto;
+      background-color: #222222;
+      z-index: 3000;
+      padding: 15px 0;
+      transition: all 0.5s ease;
+    }
+    .header .nav-menu.open {
+      visibility: visible;
+      right: 0px;
+    }
+    .header .menu > .menu-item {
+      display: block;
+      margin: 0;
+    }
+    .header .menu > .menu-item-has-children > a {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .header .menu > .menu-item > a {
+      color: #ffffff;
+      padding: 12px 15px;
+      border-bottom: 1px solid #333333;
+    }
+    .header .menu > .menu-item:first-child > a {
+      border-top: 1px solid #333333;
+    }
+    .header .menu > .menu-item > a .plus:before,
+    .header .menu > .menu-item > a .plus:after {
+      background-color: #ffffff;
+    }
+    .header .menu > .menu-item-has-children.active > a .plus:after {
+      transform: translate(-50%, -50%) rotate(0deg);
+    }
+    .header .menu > .menu-item > .sub-menu {
+      width: 100%;
+      position: relative;
+      opacity: 1;
+      visibility: visible;
+      border: none;
+      background-color: transparent;
+      box-shadow: none;
+      transform: translateY(0px);
+      padding: 0px;
+      left: auto;
+      top: auto;
+      max-height: 0;
+      overflow: hidden;
+    }
+    .header .menu > .menu-item > .sub-menu > .menu-item > a {
+      padding: 12px 45px;
+      color: #ffffff;
+      border-bottom: 1px solid #333333;
+    }
+    .header .close-nav-menu,
+    .header .open-nav-menu {
+      display: flex;
+      justify-content: center;
+    }
+  }
+</style>

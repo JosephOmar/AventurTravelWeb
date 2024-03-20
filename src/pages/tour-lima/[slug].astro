@@ -1,0 +1,40 @@
+---
+import Layout from "@layouts/Layout.astro"
+import SliderNav from "@components/Main/SliderNav.astro";
+import TitleDetails from "@components/Details/TitleDetails.astro"
+import ContainerDetails from "@components/Details/ContainerDetails.astro"
+import Description from "@components/Details/Description.astro"
+import Itinerary from "@components/Details/Itinerary.astro"
+import DetailsTravel from "@components/Details/DetailsTravel.astro";
+import Considerations from "@components/Details/Considerations.astro";
+import Price from "@components/Details/Price.astro";
+import type { Tour } from "@components/InterfaceTour"
+import CarouselDetails from "@components/Details/CarouselDetails.astro";
+import AdditionalServices from "@components/Details/AdditionalServices.astro";
+import FormTravel from "@components/Details/FormTravel.astro";
+import CommentsDetails from "@components/Details/CommentsDetails.astro";
+import TravelTime from "@components/Details/TravelTime.astro";
+
+const response = await fetch('https://aventurtravel-dev-trkz.2.us-1.fl0.io/destinations?sectionSecondary=museos');
+const data = await response.json();
+const { slug } = Astro.params; 
+const tour: Tour = data.find((tour: Tour) => tour.slug === slug);
+if (!tour) return Astro.redirect("/404");
+---
+<Layout title={tour.title} description={tour.descriptionTitle}>
+  <SliderNav image1="/img/National/NationalSlider1.webp" image2="/img/National/NationalSlider2.webp" image3="/img/National/NationalSlider3.webp" image4="/img/National/NationalSlider4.webp" h="md:h-[50vh]"/>
+  <TitleDetails name={tour.title}></TitleDetails>
+  <ContainerDetails>
+    <Description description={tour.descriptionGeneral} slot="section1"/>
+    <TravelTime timetravel={tour.timeTravel}/>
+    <Itinerary days={tour.itinerary} slot="section1"/>
+    <DetailsTravel details={tour.additionalServices} slot="section1"/>
+    <Considerations considerations={tour.considerations} slot="section1"/>
+    <Price price={tour.price} slot="section2"/>
+    <CarouselDetails images={tour.imgSlider} slot="section2"/>
+    <AdditionalServices additionals={tour.additionalServices} slot="section1"/>
+  </ContainerDetails>
+  <FormTravel place=`${tour.sectionPrimary} ${tour.title}`/>
+  <CommentsDetails comments={tour.comment}/>
+</Layout>
+    

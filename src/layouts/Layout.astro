@@ -1,23 +1,40 @@
 ---
 interface Props {
 	title: string;
+	description: string;
 }
 
-const { title } = Astro.props;
+const { title, description } = Astro.props;
+import Footer from '../components/Footer.astro';
+import Header from '../components/Header.astro';
 ---
 
 <!doctype html>
 <html lang="en">
 	<head>
 		<meta charset="UTF-8" />
-		<meta name="description" content="Astro description" />
+		<meta name="description" content={`Astro ${description}`} />
 		<meta name="viewport" content="width=device-width" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<link rel="icon" type="image/svg+xml" href="/Logo.webp" />
 		<meta name="generator" content={Astro.generator} />
 		<title>{title}</title>
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.css" rel="stylesheet" />
+		<link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;900&display=swap" rel="stylesheet">
 	</head>
-	<body>
-		<slot />
+	<body class="bg-white dark:bg-black min-h-screen" >
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/datepicker.min.js"></script>
+		<div class=" w-full h-full inset-0 fixed">
+			<img src="/Logo.webp" alt="Logo" class="w-[90%] h-[90%] mx-auto opacity-10">
+		</div>
+		<Header/>
+		<main>
+			<slot />
+		</main>
+		<Footer />
 	</body>
 </html>
 <style is:global>
@@ -36,6 +53,9 @@ const { title } = Astro.props;
 		font-family: system-ui, sans-serif;
 		background: #13151a;
 		background-size: 224px;
+		color-scheme: dark light; 
+		scroll-behavior: smooth;
+		scroll-margin-top: 15rem;
 	}
 	code {
 		font-family:
@@ -49,3 +69,4 @@ const { title } = Astro.props;
 			monospace;
 	}
 </style>
+

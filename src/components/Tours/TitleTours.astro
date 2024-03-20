@@ -1,0 +1,13 @@
+---
+interface Props {
+    name: string;
+}
+const {name} = Astro.props;
+---
+
+<section class="w-full mx-auto flex flex-col justify-center items-center">
+    <h2 class=" md:text-5xl text-3xl font-semibold relative mb-8 mt-8">
+        {name}
+        <span class="block w-[100%] h-1 bg-[#7f3812] pt-2 mt-2"></span>
+    </h2>
+</section>

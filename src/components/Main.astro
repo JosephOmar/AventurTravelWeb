@@ -1,0 +1,21 @@
+---
+import SliderNav from "./Main/SliderNav.astro";
+import FeaturedTours from "./Main/FeaturedTours.astro";
+import ButtonSection from "./Main/ButtonSection.astro";
+import AboutUs from "./Main/AboutUs.astro";
+import WhyChooseUs from "./Main/WhyChooseUs.astro";
+import OurFates from "./Main/OurFates.astro";
+
+const IMAGES = [
+  'img/CarouselMain/CarouselMain1.webp',
+  'img/CarouselMain/CarouselMain2.webp',
+  'img/CarouselMain/CarouselMain3.webp',
+  'img/CarouselMain/CarouselMain4.webp',
+]
+---
+<SliderNav image1={IMAGES[0]} image2={IMAGES[1]} image3={IMAGES[2]} image4={IMAGES[3]} h="bg-transparent md:h-[90vh]"/> 
+<ButtonSection class="bg-transparent"/>
+<AboutUs class="bg-transparent"/>
+<FeaturedTours class="bg-transparent"/> 
+<WhyChooseUs class="bg-transparent"/>    
+<OurFates class="bg-transparent"/>

@@ -1,0 +1,23 @@
+---
+interface Props {
+    days: string[],
+}
+const {days} = Astro.props
+---
+
+<section class="flex justify-start items-start flex-col mt-5 gap-5">
+    <h2 class="relative text-3xl font-semibold">
+        Itinerario
+        <span class="block bg-[#7f3812] w-full h-1 pt-2"></span>
+    </h2> 
+    <div class="flex flex-col gap-2 pl-2">
+      {
+        days.map((day, dayIndex) => (
+        <p class="text-pretty">
+            {day}
+        </p>
+        ))
+      }
+        
+    </div>
+</section>

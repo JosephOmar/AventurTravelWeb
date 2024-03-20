@@ -1,0 +1,258 @@
+---
+import { CARD } from './dataInfo.js'
+import ArrowLeftIcon from "../Icons/ArrowLeftIcon.astro";
+import ArrowRightIcon from "../Icons/ArrowRightIcon.astro";
+---
+<section class="flex flex-col min-h-[70vh] items-center justify-center max-w-[1300px] px-6 h-[80vh] mx-auto" id="FeaturedTours">
+<h2 class=" text-3xl font-semibold relative mb-8 mt-8">
+  Tours Destacados
+  <span class="block w-[100%] h-1 bg-[#7f3812] pt-2 mt-2"></span>
+</h2>
+<div class="carousel h-full w-full overflow-hidden relative">
+  <div class="list">
+    {
+      CARD.map(card => (
+        <div class="item w-full h-full absolute inset-0">
+          <img src={card.image} class="w-full h-full object-cover"/>
+          <div class="content absolute top-[20%] w-[1140px] max-w-[80%] left-[50%] translate-x-[-50%] pr-[30%] box-border text-white [text-shadow:_0_5px_10px_rgb(0_0_0_/_40%)]">
+              <div class="author text-black font-bold tracking-[10px]">Descubre</div>
+              <div class="title text-white font-bold leading-[1.3em] text-3xl md:text-6xl">{card.title}</div>
+              <div class="topic font-bold leading-[1.3em] text-[#763910] md:text-5xl text-2xl">Desde {card.price}</div>
+              <div class="des text-black/100 font-semibold bg-white/50 w-fit text-pretty md:block hidden">
+                {card.description}
+              </div>
+              <div class="buttons mt-4">
+                  <a href={card.link} class="text-white bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">Conoce mas</a>
+              </div>
+          </div>
+        </div>
+      ))
+    }
+  </div>
+
+  <div class="thumbnail absolute bottom-[50px] left-[50%] w-[max-content] z-[100] flex gap-[20px]">
+    {
+      CARD.map(card => (
+        <div class="item w-[150px] h-[220px] shrink-[0] relative">
+          <img src={card.image} class="w-full h-full object-cover rounded-[20px]"/>
+          <div class="content text-white absolute bottom-[10px] left-[10px] right-[10px]">
+              <div class="title font-semibold">
+                  {card.title}
+              </div>
+              <div class="description font-light">
+                  Desde {card.price}
+              </div>
+          </div>
+        </div>
+      ))
+    }
+  </div>
+  <div class="arrows absolute top-[80%] right-[52%] z-[100] w-[300px] max-w-[30%] flex gap-[10px] items-center">
+      <button id="prev" class="bg-[#763910]/60 hover:bg-[#763910] text-white hover:text-black w-[40px] h-[40px] rounded-full border-none font-bold transition-all duration-500 flex justify-center items-center"> <ArrowLeftIcon/> </button>
+      <button id="next" class="bg-[#763910]/60 hover:bg-[#763910] text-white hover:text-black w-[40px] h-[40px] rounded-full border-none font-bold transition-all duration-500 flex justify-center items-center"> <ArrowRightIcon/> </button>
+  </div>
+  <div class="time absolute z-[1000] w-0 h-[3px] bg-[#f1683a] left-0 top-0"></div> 
+</div>
+</section>
+
+<script>
+  let nextDom = document.getElementById('next');
+  let prevDom = document.getElementById('prev');
+
+  let carouselDom = document.querySelector('.carousel');
+  let SliderDom = carouselDom?.querySelector('.carousel .list');
+  let thumbnailBorderDom = document.querySelector('.carousel .thumbnail');
+  let thumbnailItemsDom = thumbnailBorderDom?.querySelectorAll('.item');
+
+  if (thumbnailItemsDom && thumbnailItemsDom.length > 0) {
+  thumbnailBorderDom?.appendChild(thumbnailItemsDom[0]);
+  }
+  const timeRunning = 1000;
+  const timeAutoNext = 7000;
+
+  nextDom?.addEventListener('click', () => showSlider('next'));
+  prevDom?.addEventListener('click', () => showSlider('prev'));
+
+  let runTimeOut = 0
+  let runNextAuto = setTimeout(autoNextSlide, timeAutoNext);
+
+  function autoNextSlide() {
+    nextDom?.click()
+  }
+
+  function showSlider(option: 'next' | 'prev') {
+      const SliderItemsDom = SliderDom?.querySelectorAll('.carousel .list .item');
+      const thumbnailItemsDom = document.querySelectorAll('.carousel .thumbnail .item');
+
+      if (!SliderItemsDom || SliderItemsDom.length === 0 || !thumbnailItemsDom || thumbnailItemsDom.length === 0) {
+        return;
+      }
+
+      if (option === 'next') {
+          SliderDom?.appendChild(SliderItemsDom[0]);
+          thumbnailBorderDom?.appendChild(thumbnailItemsDom[0]);
+          carouselDom?.classList.add('next');
+      } else {
+          SliderDom?.prepend(SliderItemsDom[SliderItemsDom?.length - 1]);
+          thumbnailBorderDom?.prepend(thumbnailItemsDom[thumbnailItemsDom?.length - 1]);
+          carouselDom?.classList.add('prev');
+      }
+
+      clearTimeout(runTimeOut)
+
+      runTimeOut = setTimeout(() => {
+          carouselDom?.classList.remove('next');
+          carouselDom?.classList.remove('prev');
+      }, timeRunning);
+      
+
+      clearTimeout(runNextAuto);
+      runNextAuto = setTimeout(autoNextSlide, timeAutoNext);
+  }
+</script>
+
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* thumbail */
+
+
+/* animation */
+.carousel .list .item:nth-child(1){
+    z-index: 1;
+}
+
+/* animation text in first item */
+
+.carousel .list .item:nth-child(1) .content .author,
+.carousel .list .item:nth-child(1) .content .title,
+.carousel .list .item:nth-child(1) .content .topic,
+.carousel .list .item:nth-child(1) .content .des,
+.carousel .list .item:nth-child(1) .content .buttons
+{
+    transform: translateY(50px);
+    filter: blur(20px);
+    opacity: 0;
+    animation: showContent .5s 1s linear 1 forwards;
+}
+@keyframes showContent{
+    to{
+        transform: translateY(0px);
+        filter: blur(0px);
+        opacity: 1;
+    }
+}
+.carousel .list .item:nth-child(1) .content .title{
+    animation-delay: 1.2s!important;
+}
+.carousel .list .item:nth-child(1) .content .topic{
+    animation-delay: 1.4s!important;
+}
+.carousel .list .item:nth-child(1) .content .des{
+    animation-delay: 1.6s!important;
+}
+.carousel .list .item:nth-child(1) .content .buttons{
+    animation-delay: 1.8s!important;
+}
+/* create animation when next click */
+.carousel.next .list .item:nth-child(1) img{
+    width: 150px;
+    height: 220px;
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    border-radius: 30px;
+    animation: showImage .5s linear 1 forwards;
+}
+@keyframes showImage{
+    to{
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border-radius: 0;
+    }
+}
+
+.carousel.next .thumbnail .item:nth-last-child(1){
+    overflow: hidden;
+    animation: showThumbnail .5s linear 1 forwards;
+}
+.carousel.prev .list .item img{
+    z-index: 50;
+}
+@keyframes showThumbnail{
+    from{
+        width: 0;
+        opacity: 0;
+    }
+}
+.carousel.next .thumbnail{
+    animation: effectNext .5s linear 1 forwards;
+}
+
+@keyframes effectNext{
+    from{
+        transform: translateX(150px);
+    }
+}
+
+/* running time */
+
+.carousel.next .time,
+.carousel.prev .time{
+    animation: runningTime 1s linear 1 forwards;
+}
+@keyframes runningTime{
+    from{ width: 100%}
+    to{width: 0}
+}
+
+
+/* prev click */
+
+.carousel.prev .list .item:nth-child(2){
+    z-index: 2;
+}
+
+.carousel.prev .list .item:nth-child(2) img{
+    animation: outFrame 0.5s linear 1 forwards;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+@keyframes outFrame{
+    to{
+        width: 150px;
+        height: 220px;
+        bottom: 50px;
+        left: 50%;
+        border-radius: 20px;
+    }
+}
+
+.carousel.prev .thumbnail .item:nth-child(1){
+    overflow: hidden;
+    opacity: 0;
+    animation: showThumbnail .5s linear 1 forwards;
+}
+.carousel.next .arrows button,
+.carousel.prev .arrows button{
+    pointer-events: none;
+}
+.carousel.prev .list .item:nth-child(2) .content .author,
+.carousel.prev .list .item:nth-child(2) .content .title,
+.carousel.prev .list .item:nth-child(2) .content .topic,
+.carousel.prev .list .item:nth-child(2) .content .des,
+.carousel.prev .list .item:nth-child(2) .content .buttons
+{
+    animation: contentOut 1.5s linear 1 forwards!important;
+}
+
+@keyframes contentOut{
+    to{
+        transform: translateY(-150px);
+        filter: blur(20px);
+        opacity: 0;
+    }
+}
+</style>

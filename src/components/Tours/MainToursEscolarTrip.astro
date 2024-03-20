@@ -1,0 +1,111 @@
+---
+import MainTours from './MainTours.astro'
+const STUDY_TRIP = [
+    {
+        name : 'Callejon de Huaylas', 
+        img: '/img/International/Africa.webp',
+        description: 'Embárcate en un safari inolvidable para descubrir la majestuosidad de la fauna africana y sumérgete en la rica diversidad cultural del continente.',
+        link: '../../tours-escolares/viaje-de-estudios/callejon-de-huaylas',
+        option1: 'lg:w-[450px] w-[400px]', // 350 450 400
+        option2: '',
+    },
+    {
+        name : 'Chanchamayo', 
+        img: '/img/International/Argentina.webp',
+        description: 'Desde la imponente belleza de la Patagonia hasta la pasión del tango en Buenos Aires, Argentina te invita a explorar paisajes variados y vibrantes tradiciones.',
+        link: '../../tours-escolares/viaje-de-estudios/chanchamayo',
+        option1: 'lg:w-[450px] w-[400px]',
+        option2: '',
+    },
+    {
+        name : 'Valle del Mantaro', 
+        img: '/img/International/Asia.webp',
+        description: 'De la espiritualidad en India a la modernidad en Japón, Asia ofrece una mezcla única de antiguas tradiciones y metrópolis futuristas.',
+        link: '../../tours-escolares/viaje-de-estudios/valle-del-mantaro',
+        option1: 'lg:w-[450px] w-[400px]',
+        option2: '',
+    },
+    {
+        name : 'Sur Chico', 
+        img: '/img/International/Brasil.webp',
+        description: 'Baila al ritmo del samba en las playas de Río de Janeiro o aventúrate en la selva amazónica para experimentar la diversidad natural y cultural de Brasil.',
+        link: '../../tours-escolares/viaje-de-estudios/sur-chico',
+        option1: 'lg:w-[450px] w-[400px]',
+        option2: '',
+    },
+    {
+        name : 'Cañete', 
+        img: '/img/International/Chile.webp',
+        description: 'Desde el desierto de Atacama hasta la Patagonia, Chile te cautiva con sus paisajes extremos y la calidez de su gente.',
+        link: '../../tours-escolares/viaje-de-estudios/cañete',
+        option1: 'lg:w-[450px] w-[400px]',
+        option2: '',
+    },
+    {
+        name : 'Norte Chico', 
+        img: '/img/International/Colombia.webp',
+        description: 'Descubre la magia de ciudades como Cartagena y Medellín, así como la exuberancia de la selva amazónica y las playas del Caribe colombiano.',
+        link: '../../tours-escolares/viaje-de-estudios/norte-chico',
+        option1: 'lg:w-[450px] w-[400px]',
+        option2: '',
+    },
+    {
+        name : 'Cusco Mágico', 
+        img: '/img/International/USA.webp',
+        description: 'Desde la grandeza de los parques nacionales hasta la diversidad de ciudades como Nueva York y San Francisco, Estados Unidos ofrece experiencias para todos los gustos.',
+        link: '../../tours-escolares/viaje-de-estudios/cusco-magico',
+        option1: 'lg:w-[450px] w-[400px]',
+        option2: '',
+    },
+    {
+        name : 'Chiclayo-Trujillo', 
+        img: '/img/International/Europa.webp',
+        description: 'Sumérgete en la historia y la cultura de ciudades icónicas como París, Roma y Barcelona, explorando la diversidad de paisajes y tradiciones europeas.',
+        link: '../../tours-escolares/viaje-de-estudios/chiclayo-trujillo',
+        option1: 'lg:w-[450px] w-[400px]',
+        option2: '',
+    },
+    {
+        name : 'Tumbes-Piura', 
+        img: '/img/International/Mexico.webp',
+        description: 'Disfruta de la riqueza arqueológica de lugares como Chichen Itzá, la calidez de su gente y las playas paradisíacas de la Riviera Maya.',
+        link: '../../tours-escolares/viaje-de-estudios/tumbes-piura',
+        option1: 'lg:w-[450px] w-[400px]',
+        option2: '',
+    },
+    {
+        name : 'Cajamarca', 
+        img: '/img/International/Panama.webp',
+        description: 'Conecta con la historia del Canal de Panamá, explora la belleza natural de Bocas del Toro y sumérgete en la animada cultura de la Ciudad de Panamá.',
+        link: '../../tours-escolares/viaje-de-estudios/cajamarca',
+        option1: 'lg:w-[450px] w-[400px]',
+        option2: '',
+    },
+    {
+        name : 'Tarapoto Paraiso', 
+        img: '/img/International/Mexico.webp',
+        description: 'Disfruta de la riqueza arqueológica de lugares como Chichen Itzá, la calidez de su gente y las playas paradisíacas de la Riviera Maya.',
+        link: '../../tours-escolares/viaje-de-estudios/tarapoto-paraiso',
+        option1: 'lg:w-[450px] w-[400px]',
+        option2: '',
+    },
+    {
+        name : 'Iquitos Aventura', 
+        img: '/img/International/Panama.webp',
+        description: 'Conecta con la historia del Canal de Panamá, explora la belleza natural de Bocas del Toro y sumérgete en la animada cultura de la Ciudad de Panamá.',
+        link: '../../tours-escolares/viaje-de-estudios/iquitos-aventura',
+        option1: 'lg:w-[450px] w-[400px]',
+        option2: '',
+    },
+]
+---
+
+<section class="flex min-h-[70vh] justify-center items-center">
+    <div class="grid grid-cols-1 gap-5 md:grid-cols-2 mb-8 justify-center items-center max-w-[920px]">
+          {
+            STUDY_TRIP.map ((tour) =>(
+                <MainTours {...tour} />
+            ))
+          }  
+    </div>
+</section>

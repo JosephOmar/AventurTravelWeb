@@ -1,0 +1,19 @@
+---
+interface Props{
+    considerations: string[]
+}
+const {considerations } = Astro.props
+---
+<section class="flex justify-start items-start flex-col mt-5 gap-5">
+    <h2 class="relative text-2xl md:text-3xl font-semibold">
+        Consideraciones
+        <span class="block bg-[#7f3812] w-full h-1 pt-2"></span>
+    </h2> 
+    {
+      considerations.map(consideration => (
+        <div class="w-[90%]">
+          {consideration}
+        </div>
+      ))
+    }
+</section>

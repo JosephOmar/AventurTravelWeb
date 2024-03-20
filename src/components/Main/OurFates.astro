@@ -1,0 +1,26 @@
+---
+import { FATES } from "./dataInfo";
+---
+<section class="flex flex-col min-h-[70vh] items-center justify-center px-3" id="OurFates">
+    <h2 class=" text-3xl font-semibold relative mb-8 mt-8">
+        Nuestros Destinos
+        <span class="block w-[100%] h-1 bg-[#7f3812] pt-2 mt-2"></span>
+    </h2>
+    <div class="grid grid-cols-1 gap-5 md:grid-cols-2 mb-8 justify-center items-center max-w[1300px]">
+      {
+        FATES.map(({name, description, img, option, option2, link}) => (
+          <div class={`group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30 ${option2}`}>
+            <div class={`h-96 ${option}`}>
+              <img class="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125" src={img}/>
+            </div>
+            <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black/80 group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
+            <div class="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
+              <h1 class="font-dmserif text-3xl font-bold text-white">{name}</h1>
+              <p class="mb-3 text-lg italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">{description}</p>
+              <a class="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60" href={link}>Conoce mas</a>
+            </div>
+          </div>
+        ))
+      }    
+    </div>
+</section>

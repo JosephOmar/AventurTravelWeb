@@ -1,0 +1,11 @@
+---
+interface Props {
+    description: string
+}
+
+const {description } = Astro.props;
+---
+
+<section class="w-full flex justify-center px-20 mt-0 md:mt-10 text-start font-semibold">
+    {description}
+</section>

@@ -1,0 +1,88 @@
+---
+import Layout from '../layouts/Layout.astro';
+import SliderNav from "@components/Main/SliderNav.astro";
+
+---
+
+<Layout title="Aventur Travel" description='Agencia de Viajes Aventur Travel'>
+  <SliderNav image1="/img/National/NationalSlider1.webp" image2="/img/National/NationalSlider2.webp" image3="/img/National/NationalSlider3.webp" image4="/img/National/NationalSlider4.webp" h="md:h-[50vh]"/>
+	<div class="about-section ">
+    <div class="inner-container">
+        <h1>Sobre Nosotros</h1>
+        <p class="text">
+          En Aventur Travel, convertimos tus sueños en destinos inolvidables. Nos dedicamos a ofrecerte experiencias únicas y emocionantes que te conectan con el mundo de una manera inolvidable. Con un equipo apasionado y experto en viajes, estamos comprometidos a diseñar itinerarios personalizados que se adapten a tus deseos y necesidades. Desde aventuras de montaña hasta retiros en la playa, estamos aquí para hacer realidad tus sueños de viaje. Descubre el mundo con Aventur Travel y haz que cada momento cuente.
+        </p>
+        <div class="skills">
+            <span>Aventura</span>
+            <span>Naturaleza</span>
+            <span>Cultura</span>
+        </div>
+    </div>
+  </div>
+</Layout>
+
+<style>
+
+.about-section{
+    position: relative;
+    background: url('/img/aboutUs.webp') no-repeat left;
+    background-size: 55%;
+    background-color: #fdfdfd;
+    overflow: hidden;
+    padding: 100px 0;
+    z-index: 5000;
+}
+
+.inner-container{
+    width: 55%;
+    float: right;
+    background-color: #fdfdfd;
+    padding: 150px;
+}
+
+.inner-container h1{
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.text{
+    font-size: 13px;
+    color: #545454;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+
+.skills{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+@media screen and (max-width:1200px){
+    .inner-container{
+        padding: 80px;
+    }
+}
+
+@media screen and (max-width:1000px){
+    .about-section{
+        background-size: 100%;
+        padding: 100px 40px;
+    }
+    .inner-container{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:600px){
+    .about-section{
+        padding: 0;
+    }
+    .inner-container{
+        padding: 60px;
+    }
+}
+</style>
