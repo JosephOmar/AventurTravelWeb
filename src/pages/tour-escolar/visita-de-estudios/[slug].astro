@@ -22,7 +22,7 @@ const tour: Tour = data.find((tour: Tour) => tour.slug === slug);
 if (!tour) return Astro.redirect("/404");
 ---
 <Layout title={tour.title} description={tour.descriptionTitle}>
-  <SliderNav image1="/img/National/NationalSlider1.webp" image2="/img/National/NationalSlider2.webp" image3="/img/National/NationalSlider3.webp" image4="/img/National/NationalSlider4.webp" h="md:h-[50vh]"/>
+  <SliderNav images={tour.imgSlider} h="md:h-[50vh]"/>
   <TitleDetails name={tour.title}></TitleDetails>
   <ContainerDetails>
     <Description description={tour.descriptionGeneral} slot="section1"/>
@@ -31,7 +31,7 @@ if (!tour) return Astro.redirect("/404");
     <DetailsTravel details={tour.additionalServices} slot="section1"/>
     <Considerations considerations={tour.considerations} slot="section1"/>
     <Price price={tour.price} slot="section2"/>
-    <CarouselDetails images={tour.imgSlider} slot="section2"/>
+    <CarouselDetails images={tour.imgSliderSecondary} slot="section2"/>
     <AdditionalServices additionals={tour.additionalServices} slot="section1"/>
   </ContainerDetails>
   <FormTravel place=`${tour.sectionPrimary} ${tour.title}`/>
