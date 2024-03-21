@@ -22,7 +22,7 @@ const { comments } = Astro.props
                     <p class="relative text-xl whitespace-nowrap truncate overflow-hidden">{comment.name}</p>
 
                 </div>
-                <p class="text-gray-400 text-sm">20 March 2024, at 14:88 PM</p>
+                <p class="text-gray-400 text-sm">{comment.date}</p>
             </div>
         </div>
         <p class="-mt-4 text-gray-500">{comment.content}</p>

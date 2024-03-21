@@ -1,4 +1,6 @@
 ---
+import ConsiderationsListStyle from './ConsiderationsListStyle.astro'
+
 interface Props{
     considerations: string[]
 }
@@ -9,11 +11,13 @@ const {considerations } = Astro.props
         Consideraciones
         <span class="block bg-[#7f3812] w-full h-1 pt-2"></span>
     </h2> 
+    <div class="flex flex-col gap-2 pl-4">
     {
       considerations.map(consideration => (
-        <div class="w-[90%]">
-          {consideration}
-        </div>
+        <ul class="space-y-3">
+          <ConsiderationsListStyle consideration={consideration}/> 
+        </ul>
       ))
     }
+    </div>
 </section>
