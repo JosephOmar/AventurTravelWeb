@@ -1,0 +1,25 @@
+---
+import { VIAJE_ESCOLAR } from "./TourList"
+---
+{
+    VIAJE_ESCOLAR.map(tour => (
+        <article class="mb-10">
+            <div class=" max-w-[1300px] mx-auto flex flex-col">
+                <div class="grid grid-cols-5 gap-3">
+                    <img src={tour.img} alt="">
+                    <div class="col-span-3">
+                        <div class="font-bold text-2xl ">{tour.title}</div>
+                        <div class="">{tour.description}</div>
+                    </div>
+                    <div class="flex flex-col justify-center items-center">
+                        <div class="text-2xl font-bold">{tour.price}</div>
+                        <div class="font-semibold">{tour.duration}</div>
+                    </div>
+                    
+                </div>
+                <div class="bg-red-600 font-semibold py-1 pl-5">{tour.aditionalServices}</div>
+            </div>
+            
+        </article>
+    ))
+}
