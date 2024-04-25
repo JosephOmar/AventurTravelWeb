@@ -15,26 +15,34 @@ import FormTravel from "@components/Details/FormTravel.astro";
 import CommentsDetails from "@components/Details/CommentsDetails.astro";
 import TravelTime from "@components/Details/TravelTime.astro";
 
-const response = await fetch('https://aventurtravel-dev-trkz.2.us-1.fl0.io/destinations?sectionPrimary=Tour+International');
-const data = await response.json();
-const { slug } = Astro.params; 
-const tour: Tour = data.find((tour: Tour) => tour.slug === slug);
-if (!tour) return Astro.redirect("/404");
+export async function getStaticPaths() {
+  
+  const response = await fetch('https://aventurtravel-dev-trkz.2.us-1.fl0.io/destinations?sectionPrimary=Tour+International');
+  const data = await response.json();
+
+  return data.map((data: Tour) => {
+    return {
+      params: { slug: data.slug },
+      props: { ...data },
+    };
+  });
+}
+const { ...data } = Astro.props;
 ---
-<Layout title={tour.title} description={tour.descriptionTitle}>
-  <SliderNav images={tour.imgSlider} h="md:h-[50vh]"/>
-  <TitleDetails name={tour.title}></TitleDetails>
+<Layout title={data.title} description={data.descriptionTitle}>
+  <SliderNav images={data.imgSlider} h="md:h-[50vh]"/>
+  <TitleDetails name={data.title}></TitleDetails>
   <ContainerDetails>
-    <Description description={tour.descriptionGeneral} slot="section1"/>
-    <TravelTime timetravel={tour.timeTravel}/>
-    <Itinerary days={tour.itinerary} slot="section1"/>
-    <DetailsTravel details={tour.additionalServices} slot="section1"/>
-    <Considerations considerations={tour.considerations} slot="section1"/>
-    <Price price={tour.price} slot="section2"/>
-    <CarouselDetails images={tour.imgSliderSecondary} slot="section2"/>
-    <AdditionalServices additionals={tour.additionalServices} slot="section1"/>
+    <Description description={data.descriptionGeneral} slot="section1"/>
+    <TravelTime timetravel={data.timeTravel}/>
+    <Itinerary days={data.itinerary} slot="section1"/>
+    <DetailsTravel details={data.additionalServices} slot="section1"/>
+    <Considerations considerations={data.considerations} slot="section1"/>
+    <Price price={data.price} slot="section2"/>
+    <CarouselDetails images={data.imgSliderSecondary} slot="section2"/>
+    <AdditionalServices additionals={data.additionalServices} slot="section1"/>
   </ContainerDetails>
-  <FormTravel place=`${tour.sectionPrimary} ${tour.title}`/>
-  <CommentsDetails comments={tour.comment}/>
+  <FormTravel place=`${data.sectionPrimary} ${data.title}`/>
+  <CommentsDetails comments={data.comment}/>
 </Layout>
     

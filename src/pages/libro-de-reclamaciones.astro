@@ -1,0 +1,92 @@
+---
+import Check from '@components/Icons/Check.astro';
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="Aventur Travel" description='Agencia de Viajes Aventur Travel'>
+	<section class="z-[10] relative">
+    <div class="w-[100vw] h-[400px] lg:h-[500px] relative">
+      <img src="Condiciones/reclamaciones.webp" alt="Imagen portada terminos y condiciones" class="w-full h-full"></img>
+      <div class="absolute right-[50%] translate-x-[50%] bottom-[150px] text-3xl font-extrabold flex flex-col">
+        <h2 class="text-center text-white">LIBRO DE RECLAMACIONES</h2>
+        <span class="bg-red-600 h-2 w-full"></span>
+      </div>
+    </div>
+  </section>
+  <section class="py-8 relative z-[700]">
+    <div class="lg:max-w-[1024px] max-w-[85%] mx-auto">
+      <h3 class="text-3xl font-semibold text-[#312783]">Libro de Reclamaciones de AVENTUR TRAVEL</h3>
+      <p class="pt-6">
+        En este formulario podras poner en manifiesto alguna queja o reclamo que halla sido generado por algun desconecto con nuestros servicios.
+      </p>
+      <p class="font-semibold">* Se enviara una copia del mismo al correo puesto en este formulario.</p>
+      <p class="font-semibold">* Responderemos el mismo a la brevedad posible.</p>
+    </div>
+  </section>
+  <section class="relative z-[700] pb-10">
+    <div class="lg:max-w-[1024px] max-w-[85%] mx-auto">
+      <form action="#" method="POST" class="mx-auto mt-16 max-w-xl sm:mt-20">
+        <div class="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
+          <div>
+            <label for="nombre" class="block text-sm font-semibold leading-6 text-black">Nombre</label>
+            <div class="mt-2.5">
+              <input type="text" name="nombre" id="nombre" class="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm shadow-blue-500 ring-1 ring-inset ring-blue-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-blue-400 sm:text-sm sm:leading-6">
+            </div>
+          </div>
+          <div>
+            <label for="apellido" class="block text-sm font-semibold leading-6 text-black">Apellidos</label>
+            <div class="mt-2.5">
+              <input type="text" name="apellido" id="apellido" class="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset shadow-blue-500 ring-blue-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-blue-400 sm:text-sm sm:leading-6">
+            </div>
+          </div>
+          <div class="">
+            <label for="email" class="block text-sm font-semibold leading-6 text-red-600">Email</label>
+            <div class="mt-2.5">
+              <input type="email" name="email" id="email" class="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset shadow-blue-500 ring-blue-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-blue-400 sm:text-sm sm:leading-6">
+            </div>
+          </div>
+          <div class="">
+            <label for="celular" class="block text-sm font-semibold leading-6 text-black">Telefono</label>
+            <div class="mt-2.5">
+              <input type="number" name="celular" id="celular" class="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset shadow-blue-500 ring-blue-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-blue-400 sm:text-sm sm:leading-6">
+            </div>
+          </div>
+          <div class="">
+            <label for="fechaIncidente" class="block text-sm font-semibold leading-6 text-black">Fecha de Incidente</label>
+            <div class="mt-2.5">
+              <input type="date" name="fechaIncidente" id="fechaIncidente" class="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset shadow-blue-500 ring-blue-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-blue-400 sm:text-sm sm:leading-6">
+            </div>
+          </div>
+          <div class="">
+            <label for="documento" class="block text-sm font-semibold leading-6 text-green-600">Documento</label>
+            <div class="relative mt-2.5">
+              <div class="absolute inset-y-0 left-0 flex items-center">
+                <select id="documento" name="documento" class="h-full rounded-md border-0 bg-transparent bg-none py-0 pl-4 pr-9 text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm">
+                  <option>DNI</option>
+                  <option>CE</option>
+                  <option>PASAPORTE</option>
+                </select>   
+              </div>
+              <input type="number" name="documento" id="documento" class="block w-full rounded-md border-0 px-3.5 py-2 pl-[135px] text-gray-900 shadow-sm ring-1 ring-inset shadow-blue-500 ring-blue-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-blue-400 sm:text-sm sm:leading-6">
+            </div>
+          </div>
+          <div class="sm:col-span-2">
+            <label for="reclamo" class="block text-sm font-semibold leading-6 text-green-600">Descripción de Reclamo</label>
+            <div class="mt-2.5">
+              <textarea name="reclamo" id="reclamo" rows="4" class="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset shadow-blue-500 ring-blue-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-blue-400 sm:text-sm sm:leading-6"></textarea>
+            </div>
+          </div>
+          <div class="flex gap-x-4 sm:col-span-2">
+            <div class="flex items-center h-5">
+              <input id="remember" type="checkbox" value="" class="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-blue-300 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-blue-600 dark:ring-offset-gray-800" required>
+              </div>
+              <label for="remember" class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">He leído las <a href="/politica-de-privacidad" class="text-blue-600 hover:underline dark:text-blue-500">políticas de privacidad</a>.</label>
+          </div>
+        </div>
+        <div class="mt-10">
+          <button type="submit" class="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset shadow-blue-500 ring-blue-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-blue-400 sm:text-sm sm:leading-6">Ingresar Reclamo</button>
+        </div>
+      </form>
+    </div>
+  </section>
+</Layout>
