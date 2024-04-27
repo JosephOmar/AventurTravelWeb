@@ -1,0 +1,56 @@
+---
+import type {ViajeList} from '@components/ToursList/InterfaceViajeList'
+interface Props {
+    tours: ViajeList[]
+}
+const { tours } = Astro.props
+---
+{
+    tours.map(tour => (
+        <article class="mb-10">
+            <div class="max-w-[85%] lg:max-w-[1024px] mx-auto flex flex-col border-2 border-[#7f3812] p-2">
+                <div class="grid grid-cols-1 lg:grid-cols-7 md:grid-cols-2 gap-3 lg:grid-rows-1 md:grid-rows-2 container">
+                    <img src={tour.img} alt={tour.altImg} class="h-[250px] w-[250px] [grid-area:img] mx-auto">
+                    <div class="flex flex-col justify-center gap-3 [grid-area:title]">
+                        <div class="font-bold text-4xl ">{tour.title}</div>
+                        <div class="">{tour.description}</div>
+                        <div><span class="font-semibold">Incluye: </span>{tour.include}</div>
+                    </div>
+                    <div class="flex flex-col justify-center items-center [grid-area-price] text-center">
+                        <div class="text-2xl font-bold">{tour.price}</div>
+                        <div class="font-semibold">{tour.duration}</div>
+                    </div>
+                    
+                </div>
+                <div class="bg-red-600/50 font-semibold py-1 pl-5">{tour.additionalServices}</div>
+            </div>
+            
+        </article>
+    ))
+}
+
+<style>
+    .container{
+        grid-template-areas: 
+            "img img title title title title price"
+        ;
+    }
+    @media (width < 1024px) {
+        .container{
+            grid-template-areas: 
+            "img price"
+            "title title";
+        }
+        .container img {
+            margin: auto;
+        }
+    }
+    @media (width < 768px) {
+        .container{
+            grid-template-areas: 
+            "img"
+            "title"
+            "price";
+        }
+    }
+</style>

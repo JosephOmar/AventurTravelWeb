@@ -1,0 +1,21 @@
+---
+import SliderNav from "../../../components/Main/SliderNav.astro";
+import Layout from "../../../layouts/Layout.astro";
+import TitleTours from "../../../components/Tours/TitleTours.astro"
+import { EXCURSION_ESCOLAR_PRIMARIA } from "@components/ToursList/TourList";
+import ContainerExcursionTour from "@components/ToursList/ContainerExcursionTour.astro";
+import FormTravel from "@components/Details/FormTravel.astro";
+
+const IMG_SLIDER = [
+    '/img/Escolar/Excursion-De-Campo/excursionPrimariaSlider1.webp',
+    '/img/Escolar/Excursion-De-Campo/excursionPrimariaSlider2.webp',
+    '/img/Escolar/Excursion-De-Campo/excursionPrimariaSlider3.webp',
+    '/img/Escolar/Excursion-De-Campo/excursionPrimariaSlider4.webp'
+]
+---
+<Layout title="Excursión de Estudios Primaria" description="Excursión de Estudios">
+    <SliderNav images={IMG_SLIDER} h="md:h-[50vh]"/>
+    <TitleTours name="Excursión de Estudios Primaria"/>
+    <ContainerExcursionTour tours={EXCURSION_ESCOLAR_PRIMARIA}/>
+    <FormTravel place=`Excursión Escolar Primaria`/>
+</Layout>

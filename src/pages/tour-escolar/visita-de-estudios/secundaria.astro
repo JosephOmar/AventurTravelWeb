@@ -1,0 +1,21 @@
+---
+import SliderNav from "../../../components/Main/SliderNav.astro";
+import Layout from "../../../layouts/Layout.astro";
+import TitleTours from "../../../components/Tours/TitleTours.astro"
+import { VISITA_ESCOLAR_SECUNDARIA} from "@components/ToursList/TourList";
+import ContainerExcursionTour from "@components/ToursList/ContainerExcursionTour.astro";
+import FormTravel from "@components/Details/FormTravel.astro";
+
+const IMG_SLIDER = [
+    '/img/Escolar/Excursion-De-Campo/excursionSecundariaSlider1.webp',
+    '/img/Escolar/Excursion-De-Campo/excursionSecundariaSlider2.webp',
+    '/img/Escolar/Excursion-De-Campo/excursionSecundariaSlider3.webp',
+    '/img/Escolar/Excursion-De-Campo/excursionSecundariaSlider4.webp'
+]
+---
+<Layout title="Visita de Estudios Secundaria" description="Visita de Estudios">
+    <SliderNav images={IMG_SLIDER} h="md:h-[50vh]"/>
+    <TitleTours name="Visita de Estudios Secundaria"/>
+    <ContainerExcursionTour tours={VISITA_ESCOLAR_SECUNDARIA}/>
+    <FormTravel place=`Visita Escolar Secundaria`/>
+</Layout>

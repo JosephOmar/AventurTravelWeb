@@ -3,7 +3,6 @@ import SliderNav from "../../../components/Main/SliderNav.astro";
 import Layout from "../../../layouts/Layout.astro";
 import TitleTours from "../../../components/Tours/TitleTours.astro"
 import MainTours from "../../../components/Tours/MainTours.astro"
-import ContainerTour from "@components/ToursList/ContainerTour.astro";
 import {VISITAESCOLAR_TOURS} from "../../../components/Tours/datainfo.js"
 
 const IMG_SLIDER = [
@@ -16,5 +15,13 @@ const IMG_SLIDER = [
 <Layout title="Visita de Estudios" description="Visita de Estudios">
     <SliderNav images={IMG_SLIDER} h="md:h-[50vh]"/>
     <TitleTours name="Visita de Estudios"/>
-    <ContainerTour />
+    <section class="flex min-h-[70vh] justify-center items-center px-4">
+      <div class="grid grid-cols-1 gap-5 md:grid-cols-2 mb-8 justify-center items-center max-w-[920px]">
+            {
+              VISITAESCOLAR_TOURS.map ((tour) =>(
+                  <MainTours {...tour} />
+              ))
+            }  
+      </div>
+    </section>
 </Layout>

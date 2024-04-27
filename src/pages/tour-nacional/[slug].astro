@@ -27,7 +27,7 @@ export async function getStaticPaths() {
     };
   });
 }
-const { ...data } = Astro.props;
+const { ...data } = Astro.props;  
 ---
 <Layout title={data.title} description={data.descriptionTitle}>
   <SliderNav images={data.imgSlider} h="md:h-[50vh]"/>
@@ -42,7 +42,7 @@ const { ...data } = Astro.props;
     <CarouselDetails images={data.imgSliderSecondary} slot="section2"/>
     <AdditionalServices additionals={data.additionalServices} slot="section1"/>
   </ContainerDetails>
-  <FormTravel place=`${data.sectionPrimary} ${data.title}` slug=`/tour-nacional/${data.slug}`/>
+  <FormTravel place=`${data.sectionPrimary} ${data.title}`/>
   <CommentsDetails comments={data.comment}/>
 </Layout>
     

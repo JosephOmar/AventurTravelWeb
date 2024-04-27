@@ -1,0 +1,21 @@
+---
+import SliderNav from "../../../components/Main/SliderNav.astro";
+import Layout from "../../../layouts/Layout.astro";
+import TitleTours from "../../../components/Tours/TitleTours.astro"
+import { VIAJE_ESCOLAR_AEREO } from "@components/ToursList/TourList";
+import ContainerViajeTour from "@components/ToursList/ContainerViajeTour.astro";
+import FormTravel from "@components/Details/FormTravel.astro";
+
+const IMG_SLIDER = [
+    '/img/Escolar/Viaje-De-Estudios/viajeAereoSlider1.webp',
+    '/img/Escolar/Viaje-De-Estudios/viajeAereoSlider2.webp',
+    '/img/Escolar/Viaje-De-Estudios/viajeAereoSlider3.webp',
+    '/img/Escolar/Viaje-De-Estudios/viajeAereoSlider4.webp'
+]
+---
+<Layout title="Viaje de Estudios Aéreo" description="Viaje de Estudios">
+    <SliderNav images={IMG_SLIDER} h="md:h-[50vh]"/>
+    <TitleTours name="Viaje de Estudios Aéreo"/>
+    <ContainerViajeTour tours={VIAJE_ESCOLAR_AEREO}/>
+    <FormTravel place=`Viaje Escolar Aéreo`/>
+</Layout>

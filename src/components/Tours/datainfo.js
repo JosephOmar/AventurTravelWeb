@@ -187,7 +187,7 @@ export const ESCOLAR_TOURS = [
   {
     name: 'Visita de Estudios',
     img: '/img/Escolar/VisitaEscolar.webp',
-    description: 'Amplía el conocimiento de tus estudiantes con nuestras Visitas de Estudios, diseñadas para ofrecer experiencias educativas enriquecedoras fuera del aula.',
+    description: 'Descubre aprendizaje fuera del aula con nuestras visitas educativas diseñadas para enriquecer el conocimiento de los estudiantes.',
     link: './tour-escolar/visita-de-estudios',
     option1: 'lg:w-[450px] max-w-[400px] min-w-[360px]',
     option2: ''
@@ -195,7 +195,7 @@ export const ESCOLAR_TOURS = [
   {
     name: 'Viaje de Estudios',
     img: '/img/Escolar/ViajeEscolar.webp',
-    description: 'Transforma el aprendizaje en una aventura con nuestros Viajes de Estudios, donde combinamos educación y exploración para crear recuerdos duraderos.',
+    description: 'Sumérgete en experiencias educativas enriquecedoras mientras exploras destinos fascinantes con nuestros viajes escolares organizados.',
     link: './tour-escolar/viaje-de-estudios',
     option1: 'lg:w-[450px] max-w-[400px] min-w-[360px]',
     option2: ''
@@ -203,10 +203,18 @@ export const ESCOLAR_TOURS = [
   {
     name: 'Viaje de Promoción',
     img: '/img/Escolar/PromocionEscolar.webp',
-    description: 'Celebra el logro académico con nuestros Viajes de Promoción. Ofrecemos experiencias emocionantes y seguras para que los estudiantes celebren juntos su éxito.',
+    description: 'Celebra hitos académicos con emocionantes viajes de promoción. Experiencias inolvidables diseñadas para crear recuerdos duraderos.',
     link: './tour-escolar/viaje-de-promocion',
     option1: 'md:w-[920px] max-w-[400px] min-w-[360px]',
-    option2: 'md:col-span-2 col-span-1'
+    option2: ''
+  },
+  {
+    name: 'Excursión de Campo',
+    img: '/img/Escolar/ExcursionDeCampo.webp',
+    description: '¡Aventuras al aire libre que combinan diversión y aprendizaje! Explora la naturaleza y la cultura con nuestras excursiones educativas.',
+    link: './tour-escolar/excursion-de-campo',
+    option1: 'md:w-[920px] max-w-[400px] min-w-[360px]',
+    option2: ''
   }
 ]
 
@@ -420,36 +428,20 @@ export const THEME_TOURS = [
   }
 ]
 
-export const VIAJEESCOLAR_TOURS = [
+export const VIAJE_ESCOLAR_TOURS = [
   {
-    name: 'Explorando la Reserva de Lachay',
-    img: '/img/Escolar/Viaje-De-Estudios/Chiclayo.webp',
-    description: 'Sumérgete en la rica historia y cultura de Chiclayo durante un viaje de estudios emocionante, donde podrás explorar sus museos, ruinas y delicias culinarias.',
-    link: './viaje-de-estudios/explorando-reserva-lachay',
+    name: 'Viaje Terrestre',
+    img: '/img/Escolar/Viaje-De-Estudios/viajeTerrestre.webp',
+    description: 'Explora destinos cercanos con nuestras excursiones educativas por tierra, diseñadas para fomentar el aprendizaje y la exploración.',
+    link: './viaje-de-estudios/terrestre',
     option1: 'lg:w-[450px] max-w-[400px] min-w-[360px]',
     option2: ''
   },
   {
-    name: 'Aventura en Antioquía',
-    img: '/img/Escolar/Viaje-De-Estudios/Arequipa.webp',
-    description: 'Descubre la majestuosidad de Arequipa en un viaje educativo que te llevará a explorar su arquitectura colonial, su gastronomía única y sus paisajes impresionantes.',
-    link: './viaje-de-estudios/aventura-antioquia',
-    option1: 'lg:w-[450px] max-w-[400px] min-w-[360px]',
-    option2: ''
-  },
-  {
-    name: 'Explorando el Valle de las Lomas',
-    img: '/img/Escolar/Viaje-De-Estudios/Trujillo.webp',
-    description: 'Sumérgete en la historia precolombina y colonial de Trujillo durante un viaje educativo que te llevará a explorar sus monumentos, museos y sitios arqueológicos.',
-    link: './viaje-de-estudios/explorando-valle-lomas',
-    option1: 'lg:w-[450px] max-w-[400px] min-w-[360px]',
-    option2: ''
-  },
-  {
-    name: 'Descubriendo Lunahuaná',
-    img: '/img/Escolar/Viaje-De-Estudios/Cuzco.webp',
-    description: 'Embárcate en un viaje educativo a Cuzco y descubre la antigua capital del Imperio Inca, con sus impresionantes ruinas, arquitectura colonial y vibrante cultura.',
-    link: './viaje-de-estudios/descubriendo-lunahuana',
+    name: 'Viaje Aéreo',
+    img: '/img/Escolar/Viaje-De-Estudios/viajeAereo.webp',
+    description: 'Eleva el aprendizaje a nuevas alturas con emocionantes viajes escolares por aire. ¡Descubre el mundo desde una perspectiva diferente!',
+    link: './viaje-de-estudios/aereo',
     option1: 'lg:w-[450px] max-w-[400px] min-w-[360px]',
     option2: ''
   }
@@ -457,85 +449,105 @@ export const VIAJEESCOLAR_TOURS = [
 
 export const VISITAESCOLAR_TOURS = [
   {
-    name: 'Museo de la Cultura Peruana',
-    img: '/img/Escolar/Visita-De-Estudios/RealFelipe.webp',
-    description: 'Explora la historia militar peruana en el Real Felipe, una fortaleza imponente que protegió el puerto de El Callao durante siglos.',
-    link: './visita-de-estudios/museo-cultura-peruana',
+    name: 'Primaria',
+    img: '/img/Escolar/Visita-De-Estudios/visitaPrimaria.webp',
+    description: '¡Explora el mundo con los más pequeños! Excursiones seguras y divertidas diseñadas especialmente para estudiantes de primaria.',
+    link: './visita-de-estudios/primaria',
     option1: 'lg:w-[450px] max-w-[400px] min-w-[360px]',
     option2: ''
   },
   {
-    name: 'Planetario de Lima',
-    img: '/img/Escolar/Visita-De-Estudios/MuseoDeArte.webp',
-    description: 'Sumérgete en el mundo del arte en el MALI, donde podrás admirar una vasta colección de obras que reflejan la riqueza cultural del Perú.',
-    link: './visita-de-estudios/planetario-lima',
-    option1: 'lg:w-[450px] max-w-[400px] min-w-[360px]',
-    option2: ''
-  },
-  {
-    name: 'Museo de Arte de Lima',
-    img: '/img/Escolar/Visita-De-Estudios/MuseoNacion.webp',
-    description: 'Descubre la fascinante historia del Perú en el Museo de la Nación, que alberga artefactos y exposiciones que cuentan la historia del país.',
-    link: './visita-de-estudios/museo-arte-lima',
-    option1: 'lg:w-[450px] max-w-[400px] min-w-[360px]',
-    option2: ''
-  },
-  {
-    name: 'Biblioteca Nacional del Perú',
-    img: '/img/Escolar/Visita-De-Estudios/PlanetarioLima.webp',
-    description: 'Embárcate en un viaje cósmico en el Planetario de Lima, donde podrás explorar el universo y aprender sobre la astronomía de manera interactiva.',
-    link: './visita-de-estudios/biblioteca-nacional-peru',
+    name: 'Secundaria',
+    img: '/img/Escolar/Visita-De-Estudios/visitaSecundaria.webp',
+    description: ' ¡Aventuras educativas para adolescentes curiosos! Viajes escolares emocionantes que combinan aprendizaje y diversión para estudiantes de secundaria.',
+    link: './visita-de-estudios/secundaria',
     option1: 'lg:w-[450px] max-w-[400px] min-w-[360px]',
     option2: ''
   }
 ]
 
-export const PROMOCIONESCOLAR_TOURS = [
+export const EXCURSIONESCOLAR_TOURS = [
   {
-    name: 'Selva Amazónica',
-    img: '/img/Escolar/Viaje-De-Promocion/Trujillo.webp',
-    description: 'Descubre la belleza arquitectónica y cultural de Trujillo en un viaje de promoción que te llevará a explorar sus plazas, iglesias y sitios arqueológicos.',
-    link: './viaje-de-promocion/selva-amazonica',
+    name: 'Primaria',
+    img: '/img/Escolar/Excursion-De-Campo/excursionPrimaria.webp',
+    description: '¡Explora el mundo con los más pequeños! Excursiones seguras y divertidas diseñadas especialmente para estudiantes de primaria.',
+    link: './excursion-de-campo/primaria',
     option1: 'lg:w-[450px] max-w-[400px] min-w-[360px]',
     option2: ''
   },
   {
-    name: 'Explorando Piura y Tumbes',
-    img: '/img/Escolar/Viaje-De-Promocion/Huancayo.webp',
-    description: 'Disfruta de un día lleno de emociones en Lunahuaná, donde podrás practicar deportes de aventura como el rafting y la canotaje, rodeado de paisajes impresionantes.',
-    link: './viaje-de-promocion/explorando-piura-tumbes',
+    name: 'Secundaria',
+    img: '/img/Escolar/Excursion-De-Campo/excursionSecundaria.webp',
+    description: ' ¡Aventuras educativas para adolescentes curiosos! Viajes escolares emocionantes que combinan aprendizaje y diversión para estudiantes de secundaria.',
+    link: './excursion-de-campo/secundaria',
+    option1: 'lg:w-[450px] max-w-[400px] min-w-[360px]',
+    option2: ''
+  }
+]
+
+
+export const PROMOCIONESCOLAR_TOURS = [
+  {
+    name: 'San Andrés',
+    img: '/img/Escolar/Viaje-De-Promocion/sanAndres.webp',
+    description: 'Aguas cristalinas y playas de arena blanca te esperan en San Andrés, Colombia, un destino caribeño ideal para el buceo y el relax.',
+    link: './viaje-de-promocion/san-andres-colombia',
+    option1: 'lg:w-[450px] max-w-[400px] min-w-[360px]',
+    option2: ''
+  },
+  {
+    name: 'Cartagena',
+    img: '/img/Escolar/Viaje-De-Promocion/cartagena.webp',
+    description: 'Descubre la magia colonial de Cartagena, Colombia, con sus calles empedradas, casas de colores y una rica historia que te cautivará.',
+    link: './viaje-de-promocion/cartagena-colombia',
+    option1: 'lg:w-[450px] max-w-[400px] min-w-[360px]',
+    option2: ''
+  },
+  {
+    name: 'Buenos Aires y Bariloche',
+    img: '/img/Escolar/Viaje-De-Promocion/buenosAires.webp',
+    description: 'Buenos Aires ofrece tango y cultura, mientras que Bariloche sorprende con paisajes alpinos y aventuras en la Patagonia argentina.',
+    link: './viaje-de-promocion/buenos-aires-bariloche-argentina',
     option1: 'lg:w-[450px] max-w-[400px] min-w-[360px]',
     option2: ''
   },
   {
     name: 'Cancún',
-    img: '/img/Escolar/Viaje-De-Promocion/Cajamarca.webp',
-    description: 'Disfruta de un día lleno de emociones en Lunahuaná, donde podrás practicar deportes de aventura como el rafting y la canotaje, rodeado de paisajes impresionantes.',
+    img: '/img/Escolar/Viaje-De-Promocion/cancun.webp',
+    description: 'Sol, playas de ensueño y aventuras acuáticas te esperan en Cancún, México, un paraíso caribeño con antiguos tesoros mayas.',
     link: './viaje-de-promocion/cancun',
     option1: 'lg:w-[450px] max-w-[400px] min-w-[360px]',
     option2: ''
   },
   {
-    name: 'Travesía por las Huacas',
-    img: '/img/Escolar/Viaje-De-Promocion/Chiclayo.webp',
-    description: 'Disfruta de un día lleno de emociones en Lunahuaná, donde podrás practicar deportes de aventura como el rafting y la canotaje, rodeado de paisajes impresionantes.',
-    link: './viaje-de-promocion/travesia-huacas',
+    name: 'Selva Central',
+    img: '/img/Escolar/Viaje-De-Promocion/selvaCentral.webp',
+    description: 'Oxapampa, en la Selva Central de Perú, te cautivará con su exuberante vegetación, cascadas impresionantes y la cultura de sus comunidades alemanas.',
+    link: './viaje-de-promocion/selva-central-peru',
     option1: 'lg:w-[450px] max-w-[400px] min-w-[360px]',
     option2: ''
   },
   {
-    name: 'Explorando el Valle Sagrado',
-    img: '/img/Escolar/Viaje-De-Promocion/Paracas.webp',
-    description: 'Disfruta de un día lleno de emociones en Lunahuaná, donde podrás practicar deportes de aventura como el rafting y la canotaje, rodeado de paisajes impresionantes.',
-    link: './viaje-de-promocion/valle-sagrado-cusco',
+    name: 'Cuzco',
+    img: '/img/Escolar/Viaje-De-Promocion/cuzco.webp',
+    description: 'Cuzco, antigua capital del Imperio Inca, te sumerge en la magia de su arquitectura colonial, ruinas incas y vibrante vida cultural.',
+    link: './viaje-de-promocion/cuzco-peru',
     option1: 'lg:w-[450px] max-w-[400px] min-w-[360px]',
     option2: ''
   },
   {
-    name: 'Aventura en el Cañón del Colca',
-    img: '/img/Escolar/Viaje-De-Promocion/Cancun.webp',
-    description: 'Disfruta de un día lleno de emociones en Lunahuaná, donde podrás practicar deportes de aventura como el rafting y la canotaje, rodeado de paisajes impresionantes.',
-    link: './viaje-de-promocion/aventura-canon-colca',
+    name: 'Norte Chico',
+    img: '/img/Escolar/Viaje-De-Promocion/norteChico.webp',
+    description: 'Historia en Caral y Chancay, naturaleza en Lachay y Albufera; el Norte Chico de Perú te invita a descubrir su diversidad cultural y natural.',
+    link: './viaje-de-promocion/norte-chico-peru',
+    option1: 'lg:w-[450px] max-w-[400px] min-w-[360px]',
+    option2: ''
+  },
+  {
+    name: 'Sur Chico',
+    img: '/img/Escolar/Viaje-De-Promocion/surChico.webp',
+    description: 'Paracas ofrece biodiversidad marina, Chincha historia afroperuana, Ica vinos y pisco, y Lunahuaná aventuras en el Sur Chico de Perú.',
+    link: './viaje-de-promocion/sur-chico-peru',
     option1: 'lg:w-[450px] max-w-[400px] min-w-[360px]',
     option2: ''
   }

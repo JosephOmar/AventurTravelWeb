@@ -1,11 +1,21 @@
 ---
 
 ---
-<section class=" grid grid-cols-1 md:grid-cols-3 max-w-[1500px] mx-6 md:mx-auto gap-5">
-    <div class=" col-span-2 ">
-        <slot name="section1"/>
-    </div>
-    <div class="col-span-1 flex flex-col gap-5">
-        <slot name="section2"/>
+<section>
+    <div class=" grid grid-cols-1 md:grid-cols-3 max-w-[1500px] mx-auto gap-5 container">
+        <div class=" col-span-2 ">
+            <slot name="section1"/>
+        </div>
+        <div class="col-span-1 flex flex-col gap-5 items-center justify-center">
+            <slot name="section2"/>
+        </div>
     </div>
 </section>
+
+<style>
+    @media (width < 1500px ) {
+        .container {
+            max-width: 85%;
+        }
+    }
+</style>

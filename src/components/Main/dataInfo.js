@@ -152,6 +152,10 @@ export const TOURS_ESCOLAR = [
   {
     name: 'Viaje de Promoción',
     link: '/tour-escolar/viaje-de-promocion'
+  },
+  {
+    name: 'Excursión de Campo',
+    link: '/tour-escolar/excursion-de-campo'
   }
 ]
 

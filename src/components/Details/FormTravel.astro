@@ -1,62 +1,65 @@
 ---
-import MyInput from './MyInput';
-
 interface Props {
     place : string;
-    slug: string
 }
-const {place, slug } = Astro.props
+const {place } = Astro.props
 ---
-<section class="max-w-[1200px] mx-5 md:mx-auto flex flex-col justify-center items-start mt-5 mb-5 relative z-[10]" id="form">
-    <h2 class="text-2xl md:text-3xl font-semibold relative">
-        Obten tu cotización
-        <span class=" block w-full bg-[#7f3812] h-1 pt-2"></span>
-    </h2>
-    <form class="pt-5 w-full" action="https://submit-form.com/muzbHa218" method="POST" id="contactForm">
-        <div class="grid gap-6 mb-6 md:grid-cols-2">
-            <div>
-                <label for="nombre" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Nombres</label>
-                <input type="text" id="nombre" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="" name="nombre" required>
+<section >
+    <div class="max-w-[1300px] mx-auto flex flex-col justify-center items-start my-5 relative z-[10] container" id="form">
+        <h2 class="text-2xl md:text-3xl font-semibold relative">
+            Obten tu cotización
+            <span class=" block w-full bg-[#7f3812] h-1 pt-2"></span>
+        </h2>
+        <form class="pt-5 w-full" action="https://submit-form.com/muzbHa218" method="POST" id="contactForm">
+            <div class="grid gap-6 mb-6 md:grid-cols-2">
+                <div>
+                    <label for="nombre" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Nombres</label>
+                    <input type="text" id="nombre" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="" name="nombre" required>
+                </div>
+                <div>
+                    <label for="apellidos" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Apellidos</label>
+                    <input type="text" id="apellidos" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="" name="apellidos" required>
+                </div>
+                <div class="relative">
+                    <label for="fecha" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Fecha de Salida</label>
+                    <input type="date" id="fecha" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="" name="fecha" required>
+                </div> 
+                <div>
+                    <label for="celular" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Número de contacto</label>
+                    <input type="number" id="celular" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="987654321" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" name="celular" required>
+                </div>
+                <div>
+                    <label for="destino" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Destino</label>
+                    <input type="text" id="destino" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder={place} readonly value={place} name="destino">
+                </div>
+                <div>
+                    <label for="pasajeros" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Cantidad de aventureros</label>
+                    <input type="number" id="pasajeros" aria-describedby="helper-text-explanation" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" name="pasajeros" placeholder="" required>
+                </div>
             </div>
-            <div>
-                <label for="apellidos" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Apellidos</label>
-                <input type="text" id="apellidos" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="" name="apellidos" required>
+            <div class="mb-6">
+                <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Correo Electronico</label>
+                <input type="email" id="email" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="AventurTravelPeru@gmail.com" name="email" autocomplete="off" required>
+            </div> 
+            <div class="mb-6">         
+                <label for="message" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Solicitudes especiales</label>
+                <textarea id="message" rows="4" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Personaliza tu aventura..." name="message"></textarea>
             </div>
-            <div class="relative">
-                <label for="fecha" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Fecha de Salida</label>
-                <MyInput datepicker maxDate="2026-12-31" name="fecha">
-              </div> 
-            <div>
-                <label for="celular" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Número de contacto</label>
-                <input type="number" id="celular" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="987654321" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" name="celular" required>
+            <div class="flex items-start mb-6">
+                <div class="flex items-center h-5">
+                <input id="remember" type="checkbox" value="" class="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-blue-300 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-blue-600 dark:ring-offset-gray-800" required>
+                </div>
+                <label for="remember" class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">He leído los <a href="/terminos-y-condiciones" class="text-blue-600 hover:underline dark:text-blue-500">términos y condiciones</a>.</label>
             </div>
-            <div>
-                <label for="destino" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Destino</label>
-                <input type="text" id="destino" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder={place} readonly value={place} name="destino">
-            </div>
-            <div>
-                <label for="pasajeros" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Cantidad de aventureros</label>
-                <input type="number" id="pasajeros" aria-describedby="helper-text-explanation" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" name="pasajeros" placeholder="" required>
-            </div>
-        </div>
-        <div class="mb-6">
-            <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Correo Electronico</label>
-            <input type="email" id="email" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="AventurTravelPeru@gmail.com" name="email" required>
-        </div> 
-        <div class="mb-6">         
-            <label for="message" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Solicitudes especiales</label>
-            <textarea id="message" rows="4" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Personaliza tu aventura..." name="message"></textarea>
-        </div>
-        <div class="flex items-start mb-6">
-            <div class="flex items-center h-5">
-            <input id="remember" type="checkbox" value="" class="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-blue-300 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-blue-600 dark:ring-offset-gray-800" required>
-            </div>
-            <label for="remember" class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">He leído los <a href="#" class="text-blue-600 hover:underline dark:text-blue-500">términos y condiciones</a>.</label>
-        </div>
-        <button type="submit" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Enviar</button>
-        <input type="hidden" name="_next" value={slug}>
-        <input type="hidden" name="_captchat" value="false">
-    </form>
+            <button type="submit" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Enviar</button>
+        </form>
+    </div>
 </section>
 
-
+<style>
+    @media (width < 1300px) {
+        .container{
+            max-width: 85%;
+        }
+    }
+</style>
